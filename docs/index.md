@@ -70,8 +70,10 @@ Erikas-MacBook-Air:Demo erikakvalem$ docker run -ti -p 127.0.0.1:8000:8000 -v $(
 ```
 Now that we are at my-project inside the Demo folder we run the following line, that can be found at the last link provided before:
 
-```docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
 ```
+docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
+```
+
 
 This creates a volume (–v) that is shared between the machine we are working at **($(pwd):/home/fenics/shared)** and the docker cloud **(home/fenics/shared quay.io/fenicsproject/stable:current)**.
 
