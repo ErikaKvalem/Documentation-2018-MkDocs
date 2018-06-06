@@ -96,6 +96,7 @@ The last line tells us that we are inside the fenics project with an specific ID
 A demo can be run to prove fenics is working properly. 
 Using the following command: 
 ```python ~/demo/documented/poisson/python/demo_poisson.py ```
+
 **INSERT HERE THE OUTPUT ON THE TERMINAL FROM THE DEMO**
 
 As it can be seen in the shared directory now there are two files and if we check the folder we created before these files should be in there. 
@@ -103,7 +104,7 @@ As it can be seen in the shared directory now there are two files and if we chec
 
 Before stopping it, we can open the URL:   http://127.0.0.1:8000 and visualize the output online. 
 
-![alt text]https://github.com/ErikaKvalem/Documentation-2018-MkDocs/blob/master/Screen%20Shot%202018-06-04%20at%209.01.34%20AM.png
+![alt text](https://github.com/ErikaKvalem/Documentation-2018-MkDocs/blob/master/Screen%20Shot%202018-06-04%20at%209.01.34%20AM.png)
 
 For better visualization ParaView will be used. Its installation is straight forward, however for better understanding of its functioning more information can be found in the fenics tutorial (page 27 for the first example) 
 
