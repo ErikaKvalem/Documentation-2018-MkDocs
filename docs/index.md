@@ -23,5 +23,5 @@ The whole concept of Docker is new and very abstract. Docker is a container plat
 Moreover, a Docker ID should be created so afterwards Docker Hub can be used only to download or upload repositories. 
 
 Something to take into account is that the only thing that will appear in the screen concerning Docker is a small figure in the top right corner that will show a small panel.
-
+![alt text](Documentation-2018-MkDocs/Screen Shot 2018-06-04 at 8.45.48 AM.png)
  
