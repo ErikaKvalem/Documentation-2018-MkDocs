@@ -69,6 +69,7 @@ Erikas-MacBook-Air:my-project erikakvalem$ cd Demo
 Erikas-MacBook-Air:Demo erikakvalem$ docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
 ```
 Now that we are at my-project inside the Demo folder we run the following line, that can be found at the last link provided before:
+
 ```docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
 ```
 
@@ -97,6 +98,7 @@ This should be the last line: fenics@1b4bc5a18810:~/shared$
 The last line tells us that we are inside the fenics project with an specific ID and that is shared between the server and the machine (the host). Fenics is being run inside Docker. 
 A demo can be run to prove fenics is working properly. 
 Using the following command: 
+
 ```python ~/demo/documented/poisson/python/demo_poisson.py 
 ```
 
