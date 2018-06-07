@@ -123,7 +123,7 @@ For better visualization [ParaView](https://www.paraview.org/download/)  will be
 
 For running other demos, it can be checked that there are more demos in the demo directory by using the list command in the terminal (ls)
 
-````
+```
 fenics@0ca36cf2dd4f:~$ cd demo/documented
 fenics@0ca36cf2dd4f:~/demo/documented$ ls
 auto-adaptive-poisson  hyperelasticity      nonmatching-interpolation  stokes-mini
@@ -133,7 +133,15 @@ built-in-meshes        navier-stokes        singular-poisson           subdomain
 cahn-hilliard          neumann-poisson      singular-poisson-rst       tensor-weighted-poisson
 eigenvalue             nonlinear-poisson    stokes-iterative
 fenics@0ca36cf2dd4f:~/demo/documented$ 
+
 ```
+
+These are all the demos that can be called. We place ourselves inside the directory and call the demo.
+
+
+
+
+
 
 
 
