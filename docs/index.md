@@ -75,7 +75,7 @@ Erikas-MacBook-Air:Demo erikakvalem$ docker run -ti -p 127.0.0.1:8000:8000 -v $(
 Now that we are at my-project inside the Demo folder we run the following line, that can be found at the last link provided before:
 
 
-```docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
+``` docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
 ```
 
 This creates a volume (–v) that is shared between the machine we are working at **($(pwd):/home/fenics/shared)** and the docker cloud **(home/fenics/shared quay.io/fenicsproject/stable:current)**.
@@ -83,7 +83,7 @@ This creates a volume (–v) that is shared between the machine we are working a
 After running that line this should be the output: 
 
 ```
-# FEniCS stable version image
+FEniCS stable version image
 
 Welcome to FEniCS/stable!
 
@@ -104,9 +104,10 @@ The last line tells us that we are inside the fenics project with an specific ID
 A demo can be run to prove fenics is working properly. 
 Using the following command: 
 
-```python ~/demo/documented/poisson/python/demo_poisson.py 
+``` python ~/demo/documented/poisson/python/demo_poisson.py 
 ```
 Output from the demo: 
+
 ```
 fenics@0ca36cf2dd4f:~/shared$ python ~/demo/documented/poisson/python/demo_poisson.py 
 Solving linear variational problem.
@@ -122,11 +123,8 @@ Before stopping it, we can open the URL:   http://127.0.0.1:8000 and visualize t
 
 ![alt text](https://github.com/ErikaKvalem/Documentation-2018-MkDocs/blob/master/Screen%20Shot%202018-06-04%20at%209.01.34%20AM.png)
 
-For better visualization ParaView will be used. Its installation is straight forward, however for better understanding of its functioning more information can be found in the fenics tutorial (page 27 for the first example) 
+For better visualization [ParaView](https://www.paraview.org/download/)  will be used. Its installation is straight forward, however for better understanding of its functioning more information can be found in the [fenics tutorial](https://fenicsproject.org/documentation/) (page 27 for the first example) 
 
-Paraview Download link: https://www.paraview.org/download/ 
-
-Fenics tutorial: https://fenicsproject.org/documentation/
 
 For running other demos, it can be checked that there are more demos in the demo directory by using the list command in the terminal (ls)
 
