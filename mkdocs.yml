@@ -4,4 +4,13 @@ pages:
      #- About: about.md
 
 theme: readthedocs
+
+mkdocs.yml
+docs/
+    CNAME
+    index.md
+    about.md
+    license.md
+    img/
+        Screen Shot 2018-06-04 at 9.49.19 AM.png
  
