@@ -75,58 +75,13 @@ Erikas-MacBook-Air:Demo erikakvalem$ docker run -ti -p 127.0.0.1:8000:8000 -v $(
 Now that we are at my-project inside the Demo folder we run the following line, that can be found at the last link provided before:
 
 
-``` docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
+``` 
+docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
 ```
 
-This creates a volume (–v) that is shared between the machine we are working at **($(pwd):/home/fenics/shared)** and the docker cloud **(home/fenics/shared quay.io/fenicsproject/stable:current)**.
-
-After running that line this should be the output: 
-
-```
-FEniCS stable version image
-
-Welcome to FEniCS/stable!
-
-This image provides a full-featured and optimized build of the stable
-release of FEniCS. Both python2 and python3 versions are available.
-
-To help you get started this image contains a number of demo
-programs. Explore the demos by entering the 'demo' directory, for
-example:
-
-    cd ~/demo/documented/poisson/python/
-    python3 demo_poisson.py
-fenics@a3dc1c817b2b:~/shared$ 
-```
-This should be the last line: fenics@1b4bc5a18810:~/shared$
-
-The last line tells us that we are inside the fenics project with an specific ID and that is shared between the server and the machine (the host). Fenics is being run inside Docker. 
-A demo can be run to prove fenics is working properly. 
-Using the following command: 
-
-``` python ~/demo/documented/poisson/python/demo_poisson.py 
-```
-Output from the demo: 
-
-```
-fenics@0ca36cf2dd4f:~/shared$ python ~/demo/documented/poisson/python/demo_poisson.py 
-Solving linear variational problem.
-To view figure, visit http://127.0.0.1:8000
-Press Ctrl+C to stop WebAgg server
-```
+HOLA
 
 
-As it can be seen in the shared directory now there are two files and if we check the folder we created before these files should be in there. 
-![alt text](https://github.com/ErikaKvalem/Documentation-2018-MkDocs/blob/master/Screen%20Shot%202018-06-04%20at%209.49.19%20AM.png)
-
-Before stopping it, we can open the URL:   http://127.0.0.1:8000 and visualize the output online. 
-
-![alt text](https://github.com/ErikaKvalem/Documentation-2018-MkDocs/blob/master/Screen%20Shot%202018-06-04%20at%209.01.34%20AM.png)
-
-For better visualization [ParaView](https://www.paraview.org/download/)  will be used. Its installation is straight forward, however for better understanding of its functioning more information can be found in the [fenics tutorial](https://fenicsproject.org/documentation/) (page 27 for the first example) 
-
-
-For running other demos, it can be checked that there are more demos in the demo directory by using the list command in the terminal (ls)
 
 
 
