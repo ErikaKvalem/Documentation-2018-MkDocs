@@ -197,6 +197,43 @@ Erikas-MacBook-Air:test erikakvalem$ ls
 README		conftest.py	unit
 Erikas-MacBook-Air:test erikakvalem$ cat README
 ```
+Te following step for managing to install cbcbeat is to go into The fenics project as it was explained in section 4 (**TALK SOMETHING ABOUT HOW TO ENTER AFTER INSTALLATION) ** 
+
+After having done that ( The prompt should say something like: fenics@0ca36cf2dd4f:~/local$ ) we proceed to keep cbcbeat installation. It is important to notice that in the propt says **local** not *shared*. 
+*To be able to download the repository using the bitbucket account I needed some plugins such as: Mercurial, ssh. I leave the installation steps for those* 
+
+``` 
+fenics@0ca36cf2dd4f:~/local$ sudo apt-get install openssh-client
+fenics@0ca36cf2dd4f:~/local$ ssh
+fenics@0ca36cf2dd4f:~/local$ sudo apt-get update
+fenics@0ca36cf2dd4f:~/local$ sudo apt-get install mercurial
+fenics@0ca36cf2dd4f:~/local$ h
+```
+After this, in the following step we proceed to get the repository.
+```
+fenics@0ca36cf2dd4f:~/local$ hg clone https://ErikaSimula@bitbucket.org/meg/cbcbeat 
+
+```
+
+If we check it afterwards should look like this: 
+``` 
+fenics@0ca36cf2dd4f:~/local$ ls
+cbcbeat
+```
+The following commands are to test the installation with a demo: 
+
+```fenics@0ca36cf2dd4f:~/local/cbcbeat$ cd test
+fenics@0ca36cf2dd4f:~/local/cbcbeat/test$ py.test -m "fast" -v
+```
+
+
+
+
+
+
+
+
+
 
 
 
