@@ -159,6 +159,17 @@ mesh.pvd                   nonlinear_poisson.pvd
 fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ cp * /home/fenics/shared
 fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ 
 ```
+## 5. Cbcbeat
+
+Cbcbeat is manly used in computational cardiac electrophysiology. This is the [main page](http://cbcbeat.readthedocs.io/en/latest/)
+for the documentation. 
+The installation of cbcbeat is however more tedious. The following [link](https://bitbucket.org/meg/cbcbeat/src/default/) is the main one for the installation.
+
+To install it, first all the packages must be downloaded. For this purpose it is helpful to have/create a [BitBucket](https://bitbucket.org/dashboard/overview) account so the files can be downloaded. 
+
+
+
+
 
 
 
