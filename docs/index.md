@@ -2,7 +2,7 @@
 
 ## 1.	Introduction:
 
-This is a step by step explanation on how to install The **fenics project** and **cbcbeat** in Mac using **Docker**. 
+This is a step by step explanation on how to install **The fenics project** and **cbcbeat** in Mac using **Docker**. 
 The final aim of this whole process is to be able to use Fenics and cbcbeat to run cell and 2D tissue simulations and visualize them. 
 For this purpose, several approaches can be taken. Fenics can be installed in four different ways; using Docker, Ubuntu, Anaconda or from source. In this case Docker containers have been chosen. 
 
@@ -161,7 +161,7 @@ fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$
 ```
 ## 5. Cbcbeat
 
-Cbcbeat is manly used in computational cardiac electrophysiology. This is the [main page](http://cbcbeat.readthedocs.io/en/latest/)
+**Cbcbeat** is manly used in computational cardiac electrophysiology. This is the [main page](http://cbcbeat.readthedocs.io/en/latest/)
 for the documentation. 
 The installation of cbcbeat is however more tedious. The following [link](https://bitbucket.org/meg/cbcbeat/src/default/) is the main one for the installation.
 
