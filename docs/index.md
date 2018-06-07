@@ -138,6 +138,18 @@ fenics@0ca36cf2dd4f:~/demo/documented$
 
 These are all the demos that can be called. We place ourselves inside the directory and call the demo.
 
+```
+fenics@0ca36cf2dd4f:~/demo/documented$ cd nonlinear-poisson/
+fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson$ ls
+cpp  python
+fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson$ cd python/
+fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ ls
+demo_nonlinear-poisson.py
+fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ python demo_nonlinear-poisson.py
+Calling DOLFIN just-in-time (JIT) compiler, this may take some time.
+--- Instant: compiling ---
+````
+
 
 
 
