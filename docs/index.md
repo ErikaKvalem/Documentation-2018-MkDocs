@@ -64,16 +64,19 @@ For the installation of Fenics the following [link](https://fenicsproject.org/do
 First of all it is important to place ourselves in the terminal and know exactly where we are at every moment so we can find easily the solutions and documents that fenics will create. 
 In this case we will create a folder that will be called my-project where all the output from fenics will be stored. Inside that folder I created a folder called Demo and placed myself in there. The command cd is used in the terminal to change directory. 
 
-```Erikas-MacBook-Air:~ erikakvalem$ cd my-project
+```
+Erikas-MacBook-Air:~ erikakvalem$ cd my-project
+
 Erikas-MacBook-Air:my-project erikakvalem$ cd Demo
+
 Erikas-MacBook-Air:Demo erikakvalem$ docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
 ```
+
 Now that we are at my-project inside the Demo folder we run the following line, that can be found at the last link provided before:
 
-```
-docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
-```
 
+```docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:current
+```
 
 This creates a volume (–v) that is shared between the machine we are working at **($(pwd):/home/fenics/shared)** and the docker cloud **(home/fenics/shared quay.io/fenicsproject/stable:current)**.
 
@@ -103,8 +106,14 @@ Using the following command:
 
 ```python ~/demo/documented/poisson/python/demo_poisson.py 
 ```
+Output from the demo: 
+```
+fenics@0ca36cf2dd4f:~/shared$ python ~/demo/documented/poisson/python/demo_poisson.py 
+Solving linear variational problem.
+To view figure, visit http://127.0.0.1:8000
+Press Ctrl+C to stop WebAgg server
+```
 
-**INSERT HERE THE OUTPUT ON THE TERMINAL FROM THE DEMO**
 
 As it can be seen in the shared directory now there are two files and if we check the folder we created before these files should be in there. 
 ![alt text](https://github.com/ErikaKvalem/Documentation-2018-MkDocs/blob/master/Screen%20Shot%202018-06-04%20at%209.49.19%20AM.png)
