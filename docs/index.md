@@ -81,6 +81,26 @@ docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fen
 
 This creates a volume (–v) that is shared between the machine we are working at **($(pwd):/home/fenics/shared)** and the docker cloud **(home/fenics/shared quay.io/fenicsproject/stable:current) **
 
+After running that line this should be the output: 
+```
+FEniCS stable version image
+
+Welcome to FEniCS/stable!
+
+This image provides a full-featured and optimized build of the stable
+release of FEniCS. Both python2 and python3 versions are available.
+
+To help you get started this image contains a number of demo
+programs. Explore the demos by entering the 'demo' directory, for
+example:
+
+    cd ~/demo/documented/poisson/python/
+    python3 demo_poisson.py
+fenics@a3dc1c817b2b:~/shared$  
+
+
+
+
 
 
 
