@@ -115,7 +115,8 @@ To view figure, visit http://127.0.0.1:8000
 Press Ctrl+C to stop WebAgg server
 
 ```
-
+As it can be seen in the shared directory now there are two files and if we check the folder we created before these files should be in there. 
+![Screenshot](Documentation-2018-MkDocs/Screen Shot 2018-06-04 at 9.49.19 AM.png)
 
 
 
