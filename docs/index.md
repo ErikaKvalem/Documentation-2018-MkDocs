@@ -108,6 +108,15 @@ A demo can be run to prove fenics is working properly.
 
 Using the following command: 
 
+```
+fenics@0ca36cf2dd4f:~/shared$ python ~/demo/documented/poisson/python/demo_poisson.py 
+Solving linear variational problem.
+To view figure, visit http://127.0.0.1:8000
+Press Ctrl+C to stop WebAgg server
+
+```
+
+
 
 
 
