@@ -103,6 +103,12 @@ fenics@a3dc1c817b2b:~/shared$
 
 This should be the last line: fenics@1b4bc5a18810:~/shared$
 
+The last line tells us that we are inside the fenics project with an specific id and that is shared between the server and the machine (the host). Fenics is being run inside Docker. 
+A demo can be run to prove fenics is working properly. 
+
+Using the following command: 
+
+
 
 
 
