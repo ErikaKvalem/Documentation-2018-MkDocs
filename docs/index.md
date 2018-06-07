@@ -167,6 +167,42 @@ The installation of cbcbeat is however more tedious. The following [link](https:
 
 To install it, first all the packages must be downloaded. For this purpose it is helpful to have/create a [BitBucket](https://bitbucket.org/dashboard/overview) account so the files can be downloaded. 
 
+After that, on the left side panel of the [web page for cbcbeat](https://bitbucket.org/meg/cbcbeat/src/default/) we have to click on Downloads and click on Download repository. This action will download a file .zip that must be uncompressed. Afer that I personally decided to save in the Desktop for convenience. This file is called **meg-cbcbeat-370fa4c4a62e** and in it there are many files conerning cbcbeat and its installation. 
+```
+Erikas-MacBook-Air:meg-cbcbeat-370fa4c4a62e erikakvalem$ ls
+AUTHORS			bitbucket-pipelines.yml	joss
+COPYING			build			sandbox
+COPYING.LESSER		cbcbeat			scripts
+Dockerfile		data			setup.py
+INSTALL			demo			test
+README.rst		doc	
+```
+Now we proceed to follow the steps that can be found in cbcbeat webpage in the source and INSTALL sections: cbcbeat/src/default/INSTALL
+First step:
+```
+Erikas-MacBook-Air:Desktop erikakvalem$ cd meg-cbcbeat-370fa4c4a62e/
+Erikas-MacBook-Air:meg-cbcbeat-370fa4c4a62e erikakvalem$ sudo python setup.py install
+Password:
+```
+Second step: 
+
+```
+Erikas-MacBook-Air:meg-cbcbeat-370fa4c4a62e erikakvalem$ export PYTHONPATH=`pwd`:$PYTHONPATH 
+```
+Now we will verify the installation: 
+
+```
+Erikas-MacBook-Air:meg-cbcbeat-370fa4c4a62e erikakvalem$ cd test
+Erikas-MacBook-Air:test erikakvalem$ ls
+README		conftest.py	unit
+Erikas-MacBook-Air:test erikakvalem$ cat README
+```
+
+
+
+
+
+
 
 
 
