@@ -115,9 +115,28 @@ To view figure, visit http://127.0.0.1:8000
 Press Ctrl+C to stop WebAgg server
 
 ```
-As it can be seen in the shared directory now there are two files and if we check the folder we created before these files should be in there. 
+As it can be seen in the shared directory now there are two files and if we check the folder we created before these files should be in there. One with extension .pvd and another .vtu. 
 
-![Screenshot](Documentation-2018-MkDocs/Screen Shot 2018-06-04 at 9.49.19 AM.png)
+Before stopping it (ctrl+c), we can open the URL:   http://127.0.0.1:8000 and visualize the output online. 
+
+For better visualization [ParaView](https://www.paraview.org/download/)  will be used. Its installation is straight forward, however for better understanding of its functioning more information can be found in the [fenics tutorial](https://fenicsproject.org/documentation/) (page 27 for the first example) 
+
+For running other demos, it can be checked that there are more demos in the demo directory by using the list command in the terminal (ls)
+
+````
+fenics@0ca36cf2dd4f:~$ cd demo/documented
+fenics@0ca36cf2dd4f:~/demo/documented$ ls
+auto-adaptive-poisson  hyperelasticity      nonmatching-interpolation  stokes-mini
+bcs                    maxwell-eigenvalues  periodic                   stokes-taylor-hood
+biharmonic             mixed-poisson        poisson                    subdomains
+built-in-meshes        navier-stokes        singular-poisson           subdomains-poisson
+cahn-hilliard          neumann-poisson      singular-poisson-rst       tensor-weighted-poisson
+eigenvalue             nonlinear-poisson    stokes-iterative
+fenics@0ca36cf2dd4f:~/demo/documented$ 
+```
+
+
+
 
 
 
