@@ -1,7 +1,7 @@
 site_name: Documentation Simula 2018
 pages: 
      - Home: index.md 
-     #- About: about.md
+     - Terminal code: tcode.md
 
 theme: readthedocs
 
