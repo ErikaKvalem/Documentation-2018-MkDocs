@@ -148,7 +148,18 @@ demo_nonlinear-poisson.py
 fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ python demo_nonlinear-poisson.py
 Calling DOLFIN just-in-time (JIT) compiler, this may take some time.
 --- Instant: compiling ---
-````
+```
+
+In this case it can be seen we were not In the shared directory therefore we have to copy the files from the directory where they are stored by default into our machine by doing the following: 
+
+```
+fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ ls
+demo_nonlinear-poisson.py  mesh000000.vtu         nonlinear_poisson000000.vtu
+mesh.pvd                   nonlinear_poisson.pvd
+fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ cp * /home/fenics/shared
+fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ 
+```
+
 
 
 
