@@ -150,8 +150,8 @@ README.rst		doc
 ```
 
 ## Second part of the installation
-```
 
+```
 **fenics@0ca36cf2dd4f:~/local$ sudo apt-get install openssh-client**
 Reading package lists... Done
 Building dependency tree       
@@ -537,7 +537,10 @@ Solving on t = (0.3, 0.4)
 Solving on t = (0.4, 0.5)
 =========================================================================== 405 tests deselected by "-m 'fast'" ============================================================================
 =================================================================== 4 failed, 13 passed, 405 deselected in 70.82 seconds ===================================================================
-****fenics@0ca36cf2dd4f:~/local/cbcbeat/test$ **
+****fenics@0ca36cf2dd4f:~/local/cbcbeat/test$ 
+```
+
+End
 
 
 
