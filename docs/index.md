@@ -235,8 +235,11 @@ The following commands are to test the installation with a demo:
 fenics@0ca36cf2dd4f:~/local/cbcbeat/test$ py.test -m "fast" -v
 ```
 
+To see the full process done in the terminal during the installation of cbcbeat and the expected output of the commands go to [Terminal code](Documentation-2018-MkDocs/docs/tcode.md) 
 
 
+
+ 
 
 
 
