@@ -235,6 +235,7 @@ The following commands are to test the installation with a demo:
 fenics@0ca36cf2dd4f:~/local/cbcbeat/test$ py.test -m "fast" -v
 ```
 To make it easier to use this on a daily baisis it is recommended to build a Docker image containing fenics and cbcbeat. This is done by using the lines of code that are in the file called **Dockerfile** that can be found in *Source* directory in the main page for [cbcbeat](https://bitbucket.org/meg/cbcbeat). It goes as follows: 
+
 ```
 # Builds a Docker image for reproducing the results in the wetting and drying
 # adjoint paper by Funke et.al
