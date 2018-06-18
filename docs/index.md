@@ -239,34 +239,6 @@ To make it easier to use this on a daily baisis it is recommended to build a Doc
 This is done by using the lines of code that are in the file called **Dockerfile** that can be found in *Source* directory in the main page for [cbcbeat](https://bitbucket.org/meg/cbcbeat). It goes as follows: 
 
 
-```
-# Builds a Docker image for reproducing the results in the wetting and drying
-# adjoint paper by Funke et.al
-
-FROM quay.io/dolfinadjoint/dolfin-adjoint:latest
-MAINTAINER Simon Funke <simon@simula.no>
-
-USER root
-RUN sudo apt-get update && sudo apt-get -y install mercurial
-
-USER fenics
-RUN hg clone https://bitbucket.org/meg/cbcbeat
-RUN cd cbcbeat && pip install . --user
-
-USER root
-```
-
-After that, what is left is to do a push to a public repository on Docker: 
-
-
-```
-docker push _ _ _ _ _ _ /cbcbeat
-```
-
-In the dashed line the user name in Docker should be written. 
-
-
-To see the full process done in the terminal during the installation of cbcbeat and the expected output of the commands go to **Terminal Code** in this documentation. 
 
 
 
