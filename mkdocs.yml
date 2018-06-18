@@ -1,7 +1,9 @@
 site_name: Documentation Simula 2018
 pages: 
-     - Home: index.md 
+     - Installation: index.md 
+     - Cell Models: cellm.md
      - Terminal code: tcode.md
+     - Acknowledgment: Acknow.md
 
 theme: readthedocs
 
