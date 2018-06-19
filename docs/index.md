@@ -254,6 +254,18 @@ RUN cd cbcbeat && pip install . --user
 USER root
 ```
 
+After that, what is left is to do a push to a public repository on Docker: 
+
+
+```
+docker push _ _ _ _ _ _ /cbcbeat
+```
+
+In the dashed line the user name in Docker should be written. 
+
+
+To see the full process done in the terminal during the installation of cbcbeat and the expected output of the commands go to **Terminal Code** in this documentation. 
+
 
 
 
