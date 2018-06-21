@@ -263,6 +263,12 @@ docker push _ _ _ _ _ _ /cbcbeat
 
 In the dashed line the user name in Docker should be written. 
 
+Then run in the terminal:
+
+1.- docker pull _ _ _ _ _ _ /cbcbeat
+
+2.-docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared _ _ _ _ _ _ /cbcbeat
+
 
 To see the full process done in the terminal during the installation of cbcbeat and the expected output of the commands go to **Terminal Code** in this documentation. 
 
