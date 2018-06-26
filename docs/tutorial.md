@@ -2,13 +2,13 @@
 
 To run both The Beeler-Reuter model and FitzHugh-Nagumo model the demo_monodomain.py provided by cbcbeat was used. This code does the following: 
 
-1.	The first lines are comments describing what the demo is used for. 
+**1**.	The first lines are comments describing what the demo is used for. 
 
-2.	It calls **cbcbeat** and **Fenics **.
+**2**.	It calls **cbcbeat** and **Fenics **.
 
-3.	Turns off the adjoint functionality.
+**3**.	Turns off the adjoint functionality.
 
-4.	Defines the geometry.
+**4**.	Defines the geometry.
 
 This can be either 2D or 3D (higher computational cost). The mesh is based on rectilinear divisions and it could be fine or coarse depending on the specified values. In this case the mesh used is **UnitSquareMesh meaning** the side of the spatial domain is of length 1 and has 100 divisions.
 ```
@@ -17,7 +17,7 @@ mesh = UnitSquareMesh(100, 100)
 time = Constant(0.0)
 ```
 
-6.	Define the conductivity (tensors).
+**5**.	Define the conductivity (tensors).
 
 Assigns a value for the membrane’s ability to **conduct the electric current** at intracellular and extracellular level. 
 ```
@@ -25,7 +25,7 @@ M_i = 2.0
 M_e = 1.0
 ```
 
-7.	Choose the cell model.
+**6**.	Choose the cell model.
 
 Calls the specified **cell model**. In the file **supported_cell_models** the different tested models can be found.  In this example **FitzHughNagumoManual**
 ```
@@ -33,21 +33,24 @@ cell_model = FitzHughNagumoManual()
 
 ```
 
+**7**.	Define the stimulus.
 
-8.	Define the stimulus: Since there must be an initiating stimulus in this line it is defined. The stimulus can be defined in many ways these are some examples: 
+In this line the  **initiating stimulus** is defined. The stimulus can be defined in many ways these are some examples: 
 
-Demo_monodomain
+- demo_monodomain
  
-Polynomial of degree 1: stimulus = Expression("10*t*x[0]", t=time, degree=1) 
+```
+Polynomial of degree 1: stimulus = Expression("10*t*x[0]", t=time, degree=1)
+```
 
-Demo_single_cell_model
+- demo_single_cell_model
 
- cell = CardiacCellModel() cell.stimulus = Expression(“I_s(t)”, degree=1)
+```cell = CardiacCellModel() cell.stimulus = Expression(“I_s(t)”, degree=1)
+```
 
-demo_benchmark
 
-# Define stimulation (NB: region of interest carried by the mesh
-    # and assumptions in cbcbeat)
+- demo_benchmark
+```
     duration = 2. # ms
     A = 50000. # mu A/cm^3
     cm2mm = 10.
@@ -59,12 +62,18 @@ demo_benchmark
                       duration=duration,
                       amplitude=amplitude,
                       degree=0)
+                    
+                      
+```
 
-9.	Save this configuration into de CardiacModel
+**9**.	**Save this configuration** into de CardiacModel
+```
 cardiac_model = CardiacModel(mesh, time, M_i, M_e, cell_model, stimulus)
+```
 
-10.	Choosing the  solver that will be used further on to solve the problem.  It can be modified adjusting the parameters. This will go through the equations and provide a solution field. In this case it uses the default parameters specified in the FitzHughNagumoManual file. 
+**10**.	**Choosing the  solver** that will be used further on to solve the problem. This will go through the equations and provide a solution field. In this case it uses the default parameters specified in the FitzHughNagumoManual file. 
 
+```
 ps = SplittingSolver.default_parameters()
 ps["theta"] = 0.5                        # Second order splitting scheme
 ps["pde_solver"] = "monodomain"          # Use Monodomain model for the PDEs
@@ -74,12 +83,17 @@ ps["MonodomainSolver"]["algorithm"] = "cg"
 ps["MonodomainSolver"]["preconditioner"] = "petsc_amg"
 
 solver = SplittingSolver(cardiac_model, params=ps)
+```
 
-11.	Solution field and initial conditions. The solution obtained from the solver is divided into the different variables giving as a result the solution field. Morover, the initial conditions are set up as the ones defined in initial_conditions in the cell model. 
+
+**11**.	**Solution field** and **initial conditions**. The solution obtained from the solver will be divided into the different variables giving as a result the solution field that is defined in the following way. Morover, the initial conditions are set up as the ones defined in initial_conditions in the **cell model**. 
+```
 (vs_, vs, vur) = solver.solution_fields()
 vs_.assign(cell_model.initial_conditions())
+```
 
-12.	Setting up the time step. These are crucial lines in the code since the final solution will highly depend on the time interval and period. Very small-time step can lead to problems with instability and divergence. Very big-time step can lead to loss in accuracy. That is why this parameter should be chosen carefully depending on what it is being studied. 
+
+**12**.	Setting up the **time step**. These are crucial lines in the code since the final solution will highly depend on the time interval and period. Very small-time step can lead to problems with instability and divergence. Very big-time step can lead to loss in accuracy. That is why this parameter should be chosen carefully depending on what it is being studied. 
 
 # Time stepping parameters
 dt = 0.1
