@@ -60,9 +60,12 @@ The model is known to run and integrate in the **PCEnv** and **COR CellML** envi
 
 *PCEnv is built on the CellML API, and provides a rich graphical user interface for creating CellML models, as well as running the simulations of existing models.*
 
-#### 2.3.2.1 Model description
+#### Model description
 
 **The Beeler Reuter model** is a **biophysical based model** describing mammalian ventricular action potential. It is a very basic model where the **total ionic flux** is divided into only **four individual ionic currents**. However, it includes a representation of the **intracellular calcium ion concentration**. Moreover, it implements a *fast-inward* Na+ current, a second *slower inactivation gate*, a *time-dependent outward current*, a *time-independent K+ outward current* and a *slow inward current* carried primarily by **Ca+2**. For this purpose, **eight variables** are used. 
+
+The equations for this modeled will not be covered here since they are of a higher level of complexity. However they can be found by running the **JSim model applet** and clicking on the Source tab at the bottom left of JSim's Run Time graphical user interface. The equations are written in **JSim's Mathematical Modeling Language (MML)**. 
+
 
 ### 2.3.3 The FitzHugh-Nagumo model
 
@@ -70,7 +73,7 @@ By: Penny Noble
 
 The model is known to run and integrate in **COR** and is also known to read in to [**JSim**](http://www.physiome.org/jsim/) and [**PCEnv**](https://www.cellml.org/about/news/pcenv-0-6-and-cellml-api-1-6-released) . 
 
-#### 2.3.3.2 Model description
+#### Model description
 
 This is an **Empirical model** which aims for a **larger spatial and temporal scale** and provides an action potential at a **minimal computational cost**.
 
