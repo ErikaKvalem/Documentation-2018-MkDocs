@@ -2,6 +2,7 @@ site_name: Documentation Simula 2018
 pages: 
      - Installation: index.md 
      - Cell Models: cellm.md
+     - Tutorial: tutorial.md
      - Terminal code: tcode.md
      - Acknowledgment: Acknow.md
      - Bibliography: Bib.md
