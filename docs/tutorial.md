@@ -115,13 +115,15 @@ interval = (0.0, T)
 timer = Timer("XXX Forward solve") # Time the total solve
 ```
 * The following line is inserted just after the solving part (14) 
-```timer.stop() 
 ```
+timer.stop() 
 
+```
 
 **14**.	**Solving the problem**.
 
 It uses the solver, the time step specified, the solution field, the initial conditions. In this case it also prints how much memory is used in obtaining the result in case it is needed to compare it with another conditions. 
+
 ```
 
 # Solve!
