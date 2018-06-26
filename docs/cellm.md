@@ -79,6 +79,11 @@ This is an **Empirical model** which aims for a **larger spatial and temporal sc
 
 Is based on the cubic excitation model but it also includes a **recovery variable** so both *depolarisation and repolarisation* can be modelled. 
 
+ODEs: 
+
+$ \frac{dV}{dt} = f(V) - W + I $
+
+$ \frac{dW}{dt} = {a}{({b}{V}-{c}{W})}$
 
 
 
