@@ -25,3 +25,21 @@ Current flowing through a given ion channel: $I_i=g_n{(V_m-V_i)}$
 
 Total current: $I = {C_m}\frac{dV_m}{dt} + {g_(Na)}{(V_m-V_(Na))} + {g_K}{(V_m-V_K)}+ {g_L}{(V_m-V_L)}$
 
+
+C_m = membrane capacitance per unit area
+
+g_n = ion conductances per unit area dependent on time and voltage
+
+V_i= = ion reversal potentials
+
+ODEs: 
+
+\frac{D_n}{dt}={alpha_n}{V_m}{(1-n)}-{Beta_n}{V_m}{n}
+
+\frac{D_m}{dt}={alpha_m}{V_m}{(1-m)}-{Beta_m}{V_m}{m}
+
+\frac{D_h}{dt}={alpha_h}{V_m}{(1-h)}-{Beta_h}{V_m}{h}
+
+
+
+
