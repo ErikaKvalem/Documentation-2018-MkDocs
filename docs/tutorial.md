@@ -162,13 +162,14 @@ xdmffile_vs.write(vs)
 
 **17**.	**Final lines**.
 
-It shows how much time was spent in the different process when computing the solution. This will allow to configure the time step to optimize the computing time and the solution. The **interactive()** line is commented on purpose to avoid errors. 
+It shows how much time was spent in the different process when computing the solution. This will allow to configure the time step to optimize the computing time and the solution. The **interactive()** line should be commented to avoid errors. 
 
-```# List times spent
+```
+# List times spent
 list_timings(TimingClear_keep, [TimingType_user])
 
 print "Success!"
-#interactive()
+interactive()
 
 ```
 
