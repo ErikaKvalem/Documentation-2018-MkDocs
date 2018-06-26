@@ -43,4 +43,31 @@ $\frac{D_h}{dt}={\alpha_h}{V_m}{(1-h)}-{\beta_h}{V_m}{h}$
 
 
 
+## 2.3 Ventricular Cell models 
+
+The development of models historically has focused more on the **left ventricle**, this is the reason why there are more information available related to this topic rather than to **atria models**. There are physiological differences at the cellular level, electrical conduction differences at the tissue level, but the way atria and ventricles function is essentially the same.
+For example, a cell model for atrium and ventricle may differ in some channels resulting current, but the underlying electrophysiology and mechanical behavior is essentially the same. 
+For this reason, this section was created since having a background on ventricular models  is helpful to understand atrial cell models. 
+
+The ventricular models that will be mentioned are **The Beeler Reuter model** and **The FitzHugh-Nagumo model**. For more information on other models it is recommended to read about **The Luo Rudy dynamic model** and **The Aliev-Panfilov model**.
+
+### 2.3.2 The Beeler Reuter model
+By: Penny Noble
+Reference code: Flavio Fenton's Java code.   http://thevirtualheart.org/ 
+
+The model is known to run and integrate in the PCEnv and COR CellML environments. 
+
+PCEnv is built on the CellML API, and provides a rich graphical user interface for creating CellML models, as well as running the simulations of existing models. 
+
+#### 2.3.2.1 Model description
+
+The Beeler Reuter model is a biophysical based model describing mammalian ventricular action potential. It is a very basic model where the total ionic flux is divided into only four individual ionic currents. However, it includes a representation of the intracellular calcium ion concentration. Moreover, it implements a fast-inward Na+ current, a second slower inactivation gate, a time-dependent outward current, a time-independent K+ outward current and a slow inward current carried primarily by Ca+2. For this purpose, eight variables are used. 
+
+#### 2.3.2.2 Tutorial
+
+To run this model we have to use the demo called demo_monodomain.py found in the monodomain  folder. For this purpose is needed to open the  demo_monodomain.py in a text editor and go through the code. In line 40 it is called the Tentusscher_panfilov_2006_epi_cell model by default. In this case we substitute this line by Beeler_reuter_1977. 
+It should look like this in the text editor: 
+
+
+
 
