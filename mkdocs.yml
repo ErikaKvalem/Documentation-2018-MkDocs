@@ -4,6 +4,7 @@ pages:
      - Cell Models: cellm.md
      - Terminal code: tcode.md
      - Acknowledgment: Acknow.md
+     - Bibliography: Bib.md
 
 theme: readthedocs
 markdown_extensions: 
