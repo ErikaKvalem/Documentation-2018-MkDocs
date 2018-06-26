@@ -3,21 +3,36 @@
 To run both The Beeler-Reuter model and FitzHugh-Nagumo model the demo_monodomain.py provided by cbcbeat was used. This code does the following: 
 
 1.	The first lines are comments describing what the demo is used for. 
-2.	It calls cbcbeat and Fenics 
-3.	Turns off the adjoint functionality 
-4.	Defines the geometry: 
-5.	This can be either 2D or 3D (higher computational cost). The mesh is based on rectilinear divisions and it could be fine or coarse depending on the specified values. In this case the mesh used is UnitSquareMesh meaning the side of the spatial domain is of length 1 and has 100 divisions.
+
+2.	It calls **cbcbeat** and **Fenics **.
+
+3.	Turns off the adjoint functionality.
+
+4.	Defines the geometry.
+
+This can be either 2D or 3D (higher computational cost). The mesh is based on rectilinear divisions and it could be fine or coarse depending on the specified values. In this case the mesh used is **UnitSquareMesh meaning** the side of the spatial domain is of length 1 and has 100 divisions.
+```
 mesh = UnitSquareMesh(100, 100)
 
-time = Constant(0.0) 
+time = Constant(0.0)
+```
 
-6.	Define the conductivity (tensors): Assigns a value for the membrane’s ability to conduct the electric current at intracellular and extracellular level. 
+6.	Define the conductivity (tensors).
+
+Assigns a value for the membrane’s ability to **conduct the electric current** at intracellular and extracellular level. 
+```
 M_i = 2.0
 M_e = 1.0
+```
 
-7.	Choose the cell model: Calls the specified cell model. In the file supported_cell_models the different tested models can be found.  In this case FitzHughNagumoManual
+7.	Choose the cell model.
 
-cell_model = FitzHughNagumoManual()
+Calls the specified **cell model**. In the file **supported_cell_models** the different tested models can be found.  In this example **FitzHughNagumoManual**
+```
+cell_model = FitzHughNagumoManual() 
+
+```
+
 
 8.	Define the stimulus: Since there must be an initiating stimulus in this line it is defined. The stimulus can be defined in many ways these are some examples: 
 
