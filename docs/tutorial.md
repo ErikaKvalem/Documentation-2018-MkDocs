@@ -40,12 +40,15 @@ In this line the  **initiating stimulus** is defined. The stimulus can be define
 - demo_monodomain
  
 ```
+
 Polynomial of degree 1: stimulus = Expression("10*t*x[0]", t=time, degree=1)
 ```
 
 - demo_single_cell_model
 
-```cell = CardiacCellModel() cell.stimulus = Expression(“I_s(t)”, degree=1)
+```
+
+cell = CardiacCellModel() cell.stimulus = Expression(“I_s(t)”, degree=1)
 ```
 
 
