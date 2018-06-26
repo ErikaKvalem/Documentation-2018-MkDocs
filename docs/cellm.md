@@ -85,6 +85,11 @@ $ \frac{dV}{dt} = f(V) - W + I $
 
 $ \frac{dW}{dt} = {a}{({b}{V}-{c}{W})}$
 
+V = Voltage like variable (cubic nonlinearity)
+W= recovery variable (linear dynamics)
+f(V) = polynomial of degree 3
+a,b and c = Constant parameters
+
 
 
 
