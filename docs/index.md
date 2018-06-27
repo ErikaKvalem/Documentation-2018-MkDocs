@@ -235,8 +235,10 @@ cbcbeat
 ```
 The following commands are to test the installation with a demo: 
 
-```fenics@0ca36cf2dd4f:~/local/cbcbeat$ cd test
+```
+fenics@0ca36cf2dd4f:~/local/cbcbeat$ cd test
 fenics@0ca36cf2dd4f:~/local/cbcbeat/test$ py.test -m "fast" -v
+
 ```
 
 
@@ -244,7 +246,9 @@ To make it easier to use this on a daily baisis it is recommended to build a Doc
 This is done by using the lines of code that are in the file called **Dockerfile** that can be found in *Source* directory in the main page for [cbcbeat](https://bitbucket.org/meg/cbcbeat). It goes as follows: 
 
 
-```# Builds a Docker image for reproducing the results in the wetting and drying
+```
+
+# Builds a Docker image for reproducing the results in the wetting and drying
 # adjoint paper by Funke et.al
 
 FROM quay.io/dolfinadjoint/dolfin-adjoint:latest
@@ -258,6 +262,7 @@ RUN hg clone https://bitbucket.org/meg/cbcbeat
 RUN cd cbcbeat && pip install . --user
 
 USER root
+
 ```
 
 After that, what is left is to do a push to a public repository on Docker: 
@@ -280,9 +285,25 @@ Then run in the terminal:
 
 To see the full process done in the terminal during the installation of cbcbeat and the expected output of the commands go to **Terminal Code** in this documentation. 
 
-## Open COR 
+## 6. OpenCOR
 
-## ParaView
+**OpenCOR** is an **open source** tool for creating and visualizing **standards-based models** and running model simulations. It is the latest in a series of software projects whihch goal is to provide a **modelling environment** for **CellML models**.
+
+This tool has been created inside the Physiome Project. 
+This is the [main page](http://www.opencor.ws) from where OpenCOR can be downloaded. 
+This is the link to the [OpenCOR tutorial](https://media.readthedocs.org/pdf/tutorial-on-cellml-opencor-and-pmr/latest/tutorial-on-cellml-opencor-and-pmr.pdf) Release 0.17.0 by Peter Hunter on Mar 2018. 
+
+
+## 7. ParaView
+
+[**ParaView**](https://www.paraview.org/overview/) is an **open-source**, multi-platform data analysis and **visualization application**.  ParaView was developed to analyze **extremely large datasets** using distributed memory computing resources. 
+
+In this case it will be used to **visualize the solutions** from cbcbeat of the simulations of the cell models since **Docker** does not allow visualization. 
+
+This is the [installation page](https://www.paraview.org/download/)
+
+This is a good [tutorial](https://www.paraview.org/Wiki/images/d/d5/ParaViewTutorial398.pdf) for getting started.
+
 
 
 
