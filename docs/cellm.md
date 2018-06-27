@@ -48,11 +48,13 @@ It is a set of **nonlinear differential equations** that approximates the ele
 
 **Legend**: 
 
+$R_i$ = Represents the different **ion channels*
+
 $C_m$ = Membrane **capacitance** per unit area
 
 $g_n$ = Ion **conductances** per unit area dependent on time and voltage
 
-$V_i$ = Ion **reversal potentials**
+$V_i$ = Ion **reversal potentials** (named as E in the image) 
 
 **ODEs**: 
 
