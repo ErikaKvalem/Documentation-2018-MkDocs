@@ -77,7 +77,11 @@ Reference code: [Flavio Fenton's Java code](http://thevirtualheart.org/)
 
 #### Model description
 
-**The Beeler Reuter model** is a **biophysical based model** describing mammalian ventricular action potential. It is a very basic model where the **total ionic flux** is divided into only **four individual ionic currents**. However, it includes a representation of the **intracellular calcium ion concentration**. Moreover, it implements a *fast-inward* Na+ current, a second *slower inactivation gate*, a *time-dependent outward current*, a *time-independent K+ outward current* and a *slow inward current* carried primarily by **Ca+2**. For this purpose, **eight variables** are used. 
+**The Beeler Reuter model** is a **biophysical based model** describing mammalian ventricular action potential. 
+
+It is a very basic model where the **total ionic flux** is divided into only **four individual ionic currents**. However, it includes a representation of the **intracellular calcium ion concentration**. 
+
+Moreover, it implements a **fast-inward** Na+ current, a second **slower inactivation gate**, a **time-dependent outward current**, a **time-independent K+ outward current** and a **slow inward current** carried primarily by **Ca+2**. For this purpose, **eight variables** are used. 
 
 The equations for this modeled will not be covered here since they are of a higher level of complexity. However they can be found by running the **JSim model applet** and clicking on the Source tab at the bottom left of JSim's Run Time graphical user interface. The equations are written in **JSim's Mathematical Modeling Language (MML)**. 
 
