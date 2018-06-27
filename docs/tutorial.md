@@ -1,4 +1,4 @@
-# 3. Cbcbeat code explanation
+# 3. Tutorial cbcbeat
 
 ## 3.1 demo_monodomain.py
 
