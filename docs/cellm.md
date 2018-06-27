@@ -20,7 +20,7 @@ By Alan Lloyd Hodgkin and Andrew Fielding Huxley (1952)
 
 This model is mentioned here since it basic for the understanding of more complex models. 
 
-**Conductance-based** model, is a mathematical model that describes how **action potentials** in **neurons** are initiated and propagated.
+It is a **Conductance-based** model, mathematical model that describes how **action potentials** in **neurons** are initiated and propagated.
 
 It is a set of **nonlinear differential equations** that approximates the electrical characteristics of excitable cells **(continuous time model)**. 
 
