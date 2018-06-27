@@ -289,7 +289,7 @@ To see the full process done in the terminal during the installation of cbcbeat 
 
 **OpenCOR** is an **open source** tool for creating and visualizing **standards-based models** and running model simulations. It is the latest in a series of software projects whihch goal is to provide a **modelling environment** for **CellML models**.
 
-This tool has been created inside the Physiome Project. 
+This tool has been created inside the [Physiome Project](http://physiomeproject.org/). 
 This is the [main page](http://www.opencor.ws) from where OpenCOR can be downloaded. 
 This is the link to the [OpenCOR tutorial](https://media.readthedocs.org/pdf/tutorial-on-cellml-opencor-and-pmr/latest/tutorial-on-cellml-opencor-and-pmr.pdf) Release 0.17.0 by Peter Hunter on Mar 2018. 
 
