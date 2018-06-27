@@ -90,6 +90,10 @@ Moreover, it implements a **fast-inward** Na+ current, a second **slower inactiv
 
 The equations for this modeled will not be covered here since they are of a higher level of complexity. However they can be found by running the **JSim model applet** and clicking on the Source tab at the bottom left of JSim's Run Time graphical user interface. The equations are written in **JSim's Mathematical Modeling Language (MML)**. 
 
+### Circuit representation
+
+
+
 
 ### 2.3.3 The FitzHugh-Nagumo model
 
@@ -107,10 +111,13 @@ $ \frac{dV}{dt} = f(V) - W + I $
 
 $ \frac{dW}{dt} = {a}{({b}{V}-{c}{W})}$
 
-V = Voltage like variable (cubic nonlinearity)
-W= recovery variable (linear dynamics)
-f(V) = polynomial of degree 3
-a,b and c = Constant parameters
+V = **Voltage** like variable (cubic nonlinearity)
+
+W= **Recovery** variable (linear dynamics)
+
+f(V) = **polynomial** of degree 3
+
+a,b and c = **Constant** parameters
 
 
 
