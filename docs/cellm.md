@@ -90,7 +90,7 @@ Moreover, it implements a **fast-inward** Na+ current, a second **slower inactiv
 
 The equations for this modeled will not be covered here since they are of a higher level of complexity. However they can be found by running the **JSim model applet** and clicking on the Source tab at the bottom left of JSim's Run Time graphical user interface. The equations are written in **JSim's Mathematical Modeling Language (MML)**. 
 
-### Circuit representation
+### Schematic representation
 
 ![beeler_reuter_1977](https://user-images.githubusercontent.com/39902241/41973581-a772038c-7a15-11e8-80f7-3dc8a3642995.png)
 
