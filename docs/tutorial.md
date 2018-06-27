@@ -1,4 +1,6 @@
-# 3. Tutorial on demo_monodomain
+# 3. Cbcbeat code explanation
+
+## 3.1 demo_monodomain.py
 
 To run both The Beeler-Reuter model and FitzHugh-Nagumo model the demo_monodomain.py provided by cbcbeat was used. This code does the following: 
 
@@ -159,7 +161,6 @@ xdmffile_vs = XDMFFile('vs/TransmembranePotential.xdmf')
 xdmffile_vs.write(vs)
 ```
 
-
 **17**.	**Final lines**.
 
 It shows how much time was spent in the different process when computing the solution. This will allow to configure the time step to optimize the computing time and the solution. The **interactive()** line should be commented to avoid errors. 
@@ -173,4 +174,12 @@ interactive()
 
 ```
 
+
+## 3.2 demo_single_cell_solverm.py
+
+## 3.3 beeler_reuter_1977.py
+
+## 3.4 fitzhughnagumo_manual.py
+
+## 3.5 tentusscher_panfilov_2006_M_cell.py
 
