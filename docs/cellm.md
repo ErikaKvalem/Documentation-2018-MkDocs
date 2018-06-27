@@ -3,17 +3,6 @@
 # 2. Documentation on Electrophysiological (atrial) Cell models 
 ## 2.1 Introduction 
 
-The main goal of this documentation is to introduce the reader into **electrophysiological (atrial) cell models**. 
-
-Cardiac cells models in electrophysiology are **anatomic models** of the heart describing cardiac activity from sub-cellular and cellular level to the level of the whole organ. The models consist on a set of **ordinary differential equations** that describe the cell activity.
-
-Applications: Education (i.e cardiology) and diagnostic and therapeutic instrumentation. 
-
-These electrophysiologycal models have been developed throughout history since **1952**. 
-
-The first model was simulated by **Hodgkin-Huxley** on the axon membrane of a giant squid. 
-
-Other important names have been for example **Noble**, **Beeler-Reuter**, **Luo-Rudy** etc.
 
 ## 2.2 The Hodgkin–Huxley model
 By Alan Lloyd Hodgkin and Andrew Fielding Huxley (1952) 
