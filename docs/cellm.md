@@ -92,8 +92,7 @@ The equations for this modeled will not be covered here since they are of a high
 
 ### Circuit representation
 
-
-
+![beeler_reuter_1977](https://user-images.githubusercontent.com/39902241/41973581-a772038c-7a15-11e8-80f7-3dc8a3642995.png)
 
 ### 2.3.3 The FitzHugh-Nagumo model
 
