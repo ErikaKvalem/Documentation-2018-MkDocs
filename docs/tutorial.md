@@ -179,7 +179,7 @@ interactive()
 
 **1**.	The first lines are comments describing what the demo is used for. 
 
-**2** Author: Marie E. Rognes 2017
+**2.** Author: Marie E. Rognes 2017
 ```
 
 __author__ = "Marie E. Rognes (meg@simula.no), 2017"
@@ -243,7 +243,10 @@ Calculating the rows it will only be useful in case a subplot is needed.
 
     rows = int(math.ceil(math.sqrt(len(variables))))
 ```
-**7.** Next is a **For loop** over the parameter variables (with an automatic counter) because it uses the  built-in Python function *enumerate*. Based on that, it creates a plot (var vs time) with specific type of **line**, **title**, **xlabel**, choses to activate or deactivate the **grid** and other adjustments.
+**7.** Next is a **For loop**
+
+The loop is over the parameter variables (with an automatic counter) because it uses the  built-in Python function *enumerate*. Based on that, it creates a plot (var vs time) with specific type of **line**, **title**, **xlabel**, choses to activate or deactivate the **grid** and other adjustments.
+
 ```
  for (i, var) in enumerate([variables[0],]):
         #pylab.subplot(rows, rows, i+1)
@@ -252,16 +255,20 @@ Calculating the rows it will only be useful in case a subplot is needed.
         pylab.xlabel("t")
         pylab.grid(True)
 ```
+
 **8.** This plot is saved as a pdf file in the following way:
+
 ```
  info_green("Saving plot to 'variables.pdf'")
     pylab.savefig("variables.pdf")
     if show:
         pylab.show()
 ```
+
 **9.** Now it calls the main function. 
 
 This is the most important part of the code. First the cell model is selected along with the parameters in this case default ones. If default is not chosen then the parameters are the ones written in this code. Moreover, also the stimulus is initialized here calling the function defined previously. 
+
 ```
 def main(scenario="default"):
     "Solve a single cell model on some time frame."
@@ -279,8 +286,10 @@ def main(scenario="default"):
         
     time = Constant(0.0)
     model.stimulus = Stimulus(time=time, degree=0)
-  ```
+```
+  
 Inside the main function the solver is initialized. In this case **SingleCellSolver** is the one being used along default parameters. The sovler needs as input the model, the time and the parameters. 
+
 ```
     # Initialize solver
     params = SingleCellSolver.default_parameters()
@@ -288,9 +297,7 @@ Inside the main function the solver is initialized. In this case **SingleCellSol
     solver = SingleCellSolver(model, time, params)
  ```
  
- 
 The solver fileds are defined (in this case vs_ and vs). For the solver to be able to extract the values initial conditions are needed. These are speficied in the cell model. Furthermore, the time step and the interval are defined. After that the solver is called. The for loop will append each solution to to times and values in this case and that is what it will be returned. 
-
 
  ```
  
@@ -312,6 +319,7 @@ The solver fileds are defined (in this case vs_ and vs). For the solver to be ab
 
     return times, values
  ```
+ 
  **10.** Function compare_results to plot each variable against time. 
  
  Same as above (6 and 7) but in this case it calls the values in many_values that are stored  in the function compare_results. 
