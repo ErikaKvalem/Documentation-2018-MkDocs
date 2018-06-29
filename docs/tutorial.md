@@ -194,7 +194,7 @@ from cbcbeat import *
 ```
 
 
-**4**.	Turns off the adjoint functionality. Adjust for better visualization and fsater computing (explanation out of scope)
+**4**.	Turns off the adjoint functionality. Adjust for better visualization and faster computing (explanation out of scope)
 ```
 
 # Disable adjointing
@@ -213,7 +213,7 @@ parameters["form_compiler"]["cpp_optimize_flags"] = flags
 
 **5**.	Defines the stimulus.
 
-In this case as a self defined stimulus. When the variable time takes values between two limiting values (2 and 11 in this case) the stimulus has a specific amplitude and value (in this case v_amp=125 abd value=0.05 * v_amp) otherwise value= 0.
+In this case as a self-defined stimulus. When the variable time takes values between two limiting values (2 and 11 in this case) the stimulus has a specific amplitude and value (in this case v_amp=125 and value=0.05 * v_amp) otherwise value= 0.
 ```
 class Stimulus(Expression):
     "Some self-defined stimulus."
@@ -227,19 +227,14 @@ class Stimulus(Expression):
             value[0] = 0.0
 ```
 
-**6 ** Plot of the results against time. 
+**6 .** Plot of the results against time. 
 
-Frist it defines the function for plot introducing the time and the variable that will be plotted against it (in this case values). 
+Frist it defines the function for plot introducing the time and the variable that will be plotted against it (in this case values). The zip() function take iterables (in this case values), makes iterator that aggregates elements based on the iterables passed, and returns an iterator of tuples. After that the dimensions of the plot are defined (20 by 10 in this case).
 ```
 
 def plot_results(times, values, show=True):
     "Plot the evolution of each variable versus time."
- ```
-    
-The zip() function take iterables (in this case values), makes iterator that aggregates elements based on the iterables passed, and returns an iterator of tuples. After that the dimensions of the plot are defined (20 by 10 in this case).
-
-```
-variables = zip(*values)
+    variables = zip(*values)
     pylab.figure(figsize=(20, 10))
     
 ```
