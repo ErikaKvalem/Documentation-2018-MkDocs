@@ -308,10 +308,45 @@ Inside the main function the solver is initialized. In this case **SingleCellSol
 
     return times, values
  ```
- **10** 
-    
-    
+ **10.** Function compare_results to plot each variable against time. 
+ 
+ Same as above (6 and 7) but in this case it calls the values in many_values that are stored  in the function compare_results. 
+ 
+ ```
+ 
+def compare_results(times, many_values, legends=(), show=True):
+    "Plot the evolution of each variable versus time."
 
+    pylab.figure(figsize=(20, 10))
+    for values in many_values:
+        variables = zip(*values)
+        rows = int(math.ceil(math.sqrt(len(variables))))
+        for (i, var) in enumerate([variables[0],]):
+            #pylab.subplot(rows, rows, i+1)
+            pylab.plot(times, var, '-')
+            pylab.title("Var. %d" % i)
+            pylab.xlabel("t")
+            pylab.grid(True)
+
+    pylab.legend(legends)
+    info_green("Saving plot to 'variables.pdf'")
+    pylab.savefig("variables.pdf")
+    if show:
+        pylab.show()
+ ```
+        
+ **11.** Final lines.  
+If the code has gone through the main function for values1 it will use default parameters and values2 will use what they call "gray zone". 
+
+```
+if __name__ == "__main__":
+
+    (times, values1) = main("default")
+    (times, values2) = main("gray zone")
+    compare_results(times, [values1, values2],
+                    legends=("default", "gray zone"),
+                    show=True)
+ ```
 ## 3.3 beeler_reuter_1977.py
 
 ## 3.4 fitzhughnagumo_manual.py
