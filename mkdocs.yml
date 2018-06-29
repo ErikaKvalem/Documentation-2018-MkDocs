@@ -3,6 +3,7 @@ pages:
      - Installation: index.md 
      - Cell Models: cellm.md
      - Tutorial: tutorial.md
+     - OpenCOR: opencor.md
      - Terminal code: tcode.md
      - Acknowledgment: Acknow.md
      - Bibliography: Bib.md
