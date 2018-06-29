@@ -287,7 +287,11 @@ Inside the main function the solver is initialized. In this case **SingleCellSol
     params["scheme"] = "GRL1"
     solver = SingleCellSolver(model, time, params)
  ```
- The slver fileds are defined (in this case vs_ and vs). For the solver to be able to extract the values initial conditions are needed. These are speficied in the cell model. Furthermore, the time step and the interval are defined. After that the solver is called. The for loop will append each solution to to times and values in this case and that is what it will be returned. 
+ 
+ 
+The solver fileds are defined (in this case vs_ and vs). For the solver to be able to extract the values initial conditions are needed. These are speficied in the cell model. Furthermore, the time step and the interval are defined. After that the solver is called. The for loop will append each solution to to times and values in this case and that is what it will be returned. 
+
+
  ```
  
     # Assign initial conditions
