@@ -243,7 +243,7 @@ Calculating the rows it will only be useful in case a subplot is needed.
 
     rows = int(math.ceil(math.sqrt(len(variables))))
 ```
-For loop over the parameter variables (with an automatic counter) because it uses built-in Python function *enumerate*. Based on that it creates plot (var vs time) with specific type of line, the title, the xlabel, choses to activate or deactivate the grid and other adjustments.
+**7.** Next is a **For loop** over the parameter variables (with an automatic counter) because it uses the  built-in Python function *enumerate*. Based on that, it creates a plot (var vs time) with specific type of **line**, **title**, **xlabel**, choses to activate or deactivate the **grid** and other adjustments.
 ```
  for (i, var) in enumerate([variables[0],]):
         #pylab.subplot(rows, rows, i+1)
@@ -252,7 +252,7 @@ For loop over the parameter variables (with an automatic counter) because it use
         pylab.xlabel("t")
         pylab.grid(True)
 ```
-This plot is saved as a pdf file in the following way:
+**8** This plot is saved as a pdf file in the following way:
 ```
  info_green("Saving plot to 'variables.pdf'")
     pylab.savefig("variables.pdf")
