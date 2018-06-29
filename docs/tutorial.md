@@ -294,11 +294,7 @@ Inside the main function the solver is initialized. In this case **SingleCellSol
     params = SingleCellSolver.default_parameters()
     params["scheme"] = "GRL1"
     solver = SingleCellSolver(model, time, params)
- ```
-    
-The solver fileds are defined (in this case vs_ and vs). For the solver to be able to extract the values initial conditions are needed. These are speficied in the cell model. Furthermore, the time step and the interval are defined. After that the solver is called. The for loop will append each solution to to times and values in this case and that is what it will be returned. 
 
- ```
     # Assign initial conditions
     (vs_, vs) = solver.solution_fields()
     vs_.assign(model.initial_conditions())
@@ -317,7 +313,10 @@ The solver fileds are defined (in this case vs_ and vs). For the solver to be ab
 
     return times, values
  ```
- 
+     
+The solver fileds are defined (in this case vs_ and vs). For the solver to be able to extract the values initial conditions are needed. These are speficied in the cell model. Furthermore, the time step and the interval are defined. After that the solver is called. The for loop will append each solution to to times and values in this case and that is what it will be returned. 
+
+
  **10.** Function compare_results to plot each variable against time. 
  
  Same as above (6 and 7) but in this case it calls the values in many_values that are stored  in the function compare_results. 
