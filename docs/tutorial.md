@@ -289,6 +289,7 @@ def main(scenario="default"):
 ```
   
 Inside the main function the solver is initialized. In this case **SingleCellSolver** is the one being used along default parameters. The sovler needs as input the model, the time and the parameters. 
+
 ```
     params = SingleCellSolver.default_parameters()
     params["scheme"] = "GRL1"
