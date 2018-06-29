@@ -252,14 +252,65 @@ Calculating the rows it will only be useful in case a subplot is needed.
         pylab.xlabel("t")
         pylab.grid(True)
 ```
-**8** This plot is saved as a pdf file in the following way:
+**8.** This plot is saved as a pdf file in the following way:
 ```
  info_green("Saving plot to 'variables.pdf'")
     pylab.savefig("variables.pdf")
     if show:
         pylab.show()
 ```
+**9.** Now it calls the main function. 
 
+This is the most important part of the code. First the cell model is selected along with the parameters in this case default ones. If default is not chosen then the parameters are the ones written in this code. Moreover, also the stimulus is initialized here calling the function defined previously. 
+```
+def main(scenario="default"):
+    "Solve a single cell model on some time frame."
+
+    # Initialize model and assign stimulus
+    params = Beler_reuter_1977.default_parameters()
+    if scenario is not "default":
+        new = {"g_Na": params["g_Na"]*0.38,
+               "g_CaL": params["g_CaL"]*0.31,
+               "g_Kr": params["g_Kr"]*0.30,
+               "g_Ks": params["g_Ks"]*0.20}
+        model = beeler_reuter_1977(params=new)
+    else:
+        model = beeler_reuter_1977()
+        
+    time = Constant(0.0)
+    model.stimulus = Stimulus(time=time, degree=0)
+  ```
+Inside the main function the solver is initialized. In this case **SingleCellSolver** is the one being used along default parameters. The sovler needs as input the model, the time and the parameters. 
+```
+    # Initialize solver
+    params = SingleCellSolver.default_parameters()
+    params["scheme"] = "GRL1"
+    solver = SingleCellSolver(model, time, params)
+ ```
+ The slver fileds are defined (in this case vs_ and vs). For the solver to be able to extract the values initial conditions are needed. These are speficied in the cell model. Furthermore, the time step and the interval are defined. After that the solver is called. The for loop will append each solution to to times and values in this case and that is what it will be returned. 
+ ```
+ 
+    # Assign initial conditions
+    (vs_, vs) = solver.solution_fields()
+    vs_.assign(model.initial_conditions())
+
+    # Solve and extract values
+    dt = 0.05
+    interval = (0.0, 600.0)
+
+    solutions = solver.solve(interval, dt)
+    times = []
+    values = []
+    for ((t0, t1), vs) in solutions:
+        print "Current time: %g" % t1
+        times.append(t1)
+        values.append(vs.vector().array())
+
+    return times, values
+ ```
+ **10** 
+    
+    
 
 ## 3.3 beeler_reuter_1977.py
 
