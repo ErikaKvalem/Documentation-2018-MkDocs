@@ -2,11 +2,11 @@
 
 ## 3.1 demo_monodomain.py
 
-To run both The Beeler-Reuter model and FitzHugh-Nagumo model the demo_monodomain.py provided by cbcbeat was used. This code does the following: 
+To run both The Beeler-Reuter model and FitzHugh-Nagumo model the demo_monodomain.py provided by cbcbeat was used. This code goes as expalined here:
 
 **1**.	The first lines are comments describing what the demo is used for. 
 
-**2**.	It calls **cbcbeat** and **Fenics **.
+**2**.	It imports **cbcbeat** and **Fenics **.
 
 **3**.	Turns off the adjoint functionality.
 
@@ -176,6 +176,95 @@ interactive()
 
 
 ## 3.2 demo_single_cell_solverm.py
+
+**1**.	The first lines are comments describing what the demo is used for. 
+
+**2** Author: Marie E. Rognes 2017
+```
+
+__author__ = "Marie E. Rognes (meg@simula.no), 2017"
+```
+
+**3**.	It imports **math**, **pylab** and **cbcbeat** 
+
+```
+import math
+import pylab
+from cbcbeat import *
+```
+
+
+**4**.	Turns off the adjoint functionality. Adjust for better visualization and fsater computing (explanation out of scope)
+```
+
+# Disable adjointing
+parameters["adjoint"]["stop_annotating"] = True
+
+# For easier visualization of the variables
+parameters["reorder_dofs_serial"] = False
+
+# For computing faster
+parameters["form_compiler"]["representation"] = "uflacs"
+parameters["form_compiler"]["cpp_optimize"] = True
+flags = "-O3 -ffast-math -march=native"
+parameters["form_compiler"]["cpp_optimize_flags"] = flags
+```
+
+
+**5**.	Defines the stimulus.
+
+In this case as a self defined stimulus. When the variable time takes values between two limiting values (2 and 11 in this case) the stimulus has a specific amplitude and value (in this case v_amp=125 abd value=0.05 * v_amp) otherwise value= 0.
+```
+class Stimulus(Expression):
+    "Some self-defined stimulus."
+    def __init__(self, **kwargs):
+        self.t = kwargs["time"]
+    def eval(self, value, x):
+        if float(self.t) >= 2 and float(self.t) <= 11:
+            v_amp = 125
+            value[0] = 0.05*v_amp
+        else:
+            value[0] = 0.0
+```
+
+**6 ** Plot of the results against time. 
+
+Frist it defines the function for plot introducing the time and the variable that will be plotted against it (in this case values). 
+```
+
+def plot_results(times, values, show=True):
+    "Plot the evolution of each variable versus time."
+ ```
+    
+The zip() function take iterables (in this case values), makes iterator that aggregates elements based on the iterables passed, and returns an iterator of tuples. After that the dimensions of the plot are defined (20 by 10 in this case).
+
+```
+variables = zip(*values)
+    pylab.figure(figsize=(20, 10))
+    
+```
+Calculating the rows it will only be useful in case a subplot is needed. 
+```
+
+    rows = int(math.ceil(math.sqrt(len(variables))))
+```
+For loop over the parameter variables (with an automatic counter) because it uses built-in Python function *enumerate*. Based on that it creates plot (var vs time) with specific type of line, the title, the xlabel, choses to activate or deactivate the grid and other adjustments.
+```
+ for (i, var) in enumerate([variables[0],]):
+        #pylab.subplot(rows, rows, i+1)
+        pylab.plot(times, var, '*-')
+        pylab.title("Var. %d" % i)
+        pylab.xlabel("t")
+        pylab.grid(True)
+```
+This plot is saved as a pdf file in the following way:
+```
+ info_green("Saving plot to 'variables.pdf'")
+    pylab.savefig("variables.pdf")
+    if show:
+        pylab.show()
+```
+
 
 ## 3.3 beeler_reuter_1977.py
 
