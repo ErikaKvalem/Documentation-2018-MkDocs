@@ -31,6 +31,8 @@ This helps the **V(t)** to recover in a **progressive** way until the threshold 
 
 ## The ten Tusscher, Panfilov, 2006 model 
 
+![tentussher](https://user-images.githubusercontent.com/39902241/42164153-610cf7fa-7e05-11e8-8f0b-6976fc2bbd2b.jpg)
+
 
 
 
