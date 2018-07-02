@@ -133,6 +133,9 @@ This model is used to study ventricular fibrilation since dynamical inestabiliti
 
 There are two different versions of this model. The a version is a full description of the Ca+2 dynamics (17 variables) and the b option is a simplified version with 9 variables ( voltage and 8 gates). 
 
+### Schematic representation
+
+![screen shot 2018-07-02 at 3 07 12 pm](https://user-images.githubusercontent.com/39902241/42165898-b2ad9732-7e09-11e8-94c6-9dfa04f0c6df.png)
 
 
 
