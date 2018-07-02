@@ -17,6 +17,12 @@ The last plot refers to the second slower inactivation gate j. This is a special
 
 ![beelerreuter2](https://user-images.githubusercontent.com/39902241/42158670-68bdde56-7df1-11e8-9662-d92f4916b663.jpg)
 
+## The Fitzhugh Nagumo model 
+
+The following screenshot refers to the Fitzhugh Nagumo model  run by OpenCOR. There are two plots regarding the different parameters. 
+
+In this case, since this model is an Empirical model which aims for a larger spatial and temporal scale only the V(t) voltage dependence on time and the W(t) recovery variable are plotted. 
+
 
 
 
