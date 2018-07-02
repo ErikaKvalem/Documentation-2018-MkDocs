@@ -23,6 +23,12 @@ The following screenshot refers to the Fitzhugh Nagumo model  run by OpenCOR. Th
 
 In this case, since this model is an Empirical model which aims for a larger spatial and temporal scale only the V(t) voltage dependence on time and the W(t) recovery variable are plotted. 
 
+The first plot shows the Voltage dependence with time. Comparing it with the second plot (recovery variable W(t)) it can be seen that depolarization occurs when the recovery variable is at its minimum. When the plateau is happening the recovery variable increases until repolarisation. It reaches the highest value just before this phase. This helps the V(t) to recover in a progressive way until the threshold voltage is achieved again and a new Action potential is triggered. 
+
+![fitzhughnagumo1](https://user-images.githubusercontent.com/39902241/42159608-ae84695c-7df4-11e8-91f9-6da7f53e6f98.jpg)
+
+
+
 
 
 
