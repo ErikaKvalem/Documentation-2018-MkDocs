@@ -356,11 +356,4 @@ if __name__ == "__main__":
                     show=True)
  ```
  
-## 3.3 beeler_reuter_1977.py
-
-## 3.4 fitzhughnagumo_manual.py
-
-## 3.5 tentusscher_panfilov_2006_M_cell.py
-
-
 
