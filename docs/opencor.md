@@ -11,7 +11,11 @@ The second reffers to the **fast inward current ($I_Na$)**. This one has a very 
 
 The third plot shows the time dependent outward current **($I_K1$)** and the time independent outward current  **( $I_x1$ ) **. 
 
-The last plot gathers both the m gate and the h gate. The opening of m gate coincides with the spike from the  **fast inward current ($I_Na$)** seen in the second graph. The m gate is open during the plateau and is closed when the h gate opens. 
+The fourth plot gathers both the m gate and the h gate. The opening of m gate coincides with the spike from the  **fast inward current ($I_Na$)** seen in the second graph. The m gate is open during the plateau and is closed when the h gate opens. 
+
+The last plot refers to the second slower inactivation gate j. This is a special characteristic of this model since the Hodgkin and Huxley does not include this variable.  The total ionic current in the Beeler-Reuter model is given by four currents, and the model uses eight variables.
+
+![beelerreuter2](https://user-images.githubusercontent.com/39902241/42158670-68bdde56-7df1-11e8-9662-d92f4916b663.jpg)
 
 
 
