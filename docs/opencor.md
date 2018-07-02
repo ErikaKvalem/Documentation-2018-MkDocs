@@ -15,7 +15,6 @@ The last plot gathers both the m gate and the h gate. The opening of m gate coin
 
 
 
-![beelerreuteredit](https://user-images.githubusercontent.com/39902241/42156626-d6dc3b86-7deb-11e8-970a-ff4100560df3.jpg)
 
 
 
