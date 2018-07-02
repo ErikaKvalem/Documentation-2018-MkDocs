@@ -9,7 +9,7 @@ The first one shows the voltage dependence on time  V(t)  also known as **action
 
 The second reffers to the **fast inward current ($I_Na$)**. This one has a very brief downward (inward current) spike that is triggered when the membrane voltage reaches around -70 mV. This is caused by the big increase in sodium channel conductance **($g_Na (t) $)**. This is related simultaneously with the last plot; the opening and closing of the m and h gates. 
 
-The third plot shows the time dependent outward current **($I_Ki$)** and the time independent outward current  **( $I_xi$ ) **. 
+The third plot shows the time dependent outward current **($I_K1$)** and the time independent outward current  **( $I_x1$ ) **. 
 
 The last plot gathers both the m gate and the h gate. The opening of m gate coincides with the spike from the  **fast inward current ($I_Na$)** seen in the second graph. The m gate is open during the plateau and is closed when the h gate opens. 
 
