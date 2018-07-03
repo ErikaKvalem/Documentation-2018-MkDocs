@@ -125,13 +125,13 @@ By: Penny Noble of Oxford University
 
 #### Model description
 
-This model describes human epicardial, endocardial and midmyocardial cells. Multiple action potentials can be stimulated at the same time with frequency 1 Hz. 
+This model describes **human epicardial, endocardial and midmyocardial cells**. Multiple action potentials can be stimulated at the same time with frequency 1 Hz. 
 
-This model focus on APD restitution and intracellular Ca+2 dynamics. 
+This model focus on  **Action potential durantion (APD)** restitution and **intracellular Ca+2 dynamics**. 
 
-This model is used to study ventricular fibrilation since dynamical inestabilities in Action potential durantion (APD) are directly related to it.The key concept for inestability is the recovery dynamics of fast Na+ current.  Slower Na+ current recovery means longer periods of spiral wave rotation and more gradual conduction velocity restitution. And these two things lead to inestability.
+This model is used to study **ventricular fibrilation** since dynamical inestabilities in APD are directly related to it.The key concept for inestability is the **recovery dynamics of fast Na+ current**.  Slower Na+ current recovery means **longer periods** of spiral wave rotation and more gradual **conduction velocity restitution**. And these two things lead to **inestability**.
 
-There are two different versions of this model. The a version is a full description of the Ca+2 dynamics (17 variables) and the b option is a simplified version with 9 variables ( voltage and 8 gates). 
+There are two different **versions** of this model. The a version is a full description of the Ca+2 dynamics **(17 variables)** and the b option is a simplified version with **9 variables** ( voltage and 8 gates). 
 
 ### Schematic representation
 
