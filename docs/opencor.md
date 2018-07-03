@@ -31,6 +31,38 @@ This helps the **V(t)** to recover in a **progressive** way until the threshold 
 
 ## 4.3 The ten Tusscher, Panfilov, 2006 model 
 
+This model is slightly more complex than the ones previously mentioned. It uses 12 transmembrane currents listed here: 
+
+- Fast **Na+** current 
+
+- L-type **Ca2+** current 
+
+- Rapid  delayed rectifier **K+** current
+
+- Slow delayed rectifier **K+** current
+
+- Inward rectifier **K+** current
+
+- Transient outward **K+**
+
+- Plateau **K+** current 
+
+- **Na+-Ca2+** exchanger current
+
+- **Na+-K+** pump current
+
+- Sarcolemmal **Ca2+** pump current
+
+- Background **Na+** current
+
+- Background **Ca2+** current.
+
+From those currents some have been represented in the screenshot below (The action potential, **K+** current, L-type **Ca2+** current ,
+background **Na+** current and **Na+-K+** pump current).
+
+The interpretation and relation of the graphs is out of the scope of this page. However it is relevant to get an idea on how complex and complete this models can get, trying to simulate reality as much as they can.
+
+
 ![tentussher](https://user-images.githubusercontent.com/39902241/42164153-610cf7fa-7e05-11e8-8f0b-6976fc2bbd2b.jpg)
 
 
