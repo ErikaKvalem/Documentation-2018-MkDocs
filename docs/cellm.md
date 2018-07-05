@@ -141,8 +141,7 @@ There are two different **versions** of this model. The a version is a full desc
 
 ### 2.4.1 Comparison Ventricular vs Atrial models 
 
-![screen shot 2018-07-05 at 11 53 53 am](https://user-images.githubusercontent.com/39902241/42316470-37c00102-804a-11e8-8e16-247b53cffca9.png)
-
+![screen shot 2018-07-05 at 11 56 39 am](https://user-images.githubusercontent.com/39902241/42316602-8dab36b8-804a-11e8-895a-ccdbe22c4533.png)
 
 ### 2.4.2 Courtemanche cell model 
 
