@@ -1,4 +1,4 @@
-# Documentation for the set-up of fenics+cbcbeat on Mac using Docker. 04/06/18
+#2. Documentation for the set-up of fenics+cbcbeat on Mac using Docker. 04/06/18
 
 **Fenics** can be installed in four different ways; using **Docker, Ubuntu, Anaconda or from source**. In this case **Docker containers** have been chosen. 
 
