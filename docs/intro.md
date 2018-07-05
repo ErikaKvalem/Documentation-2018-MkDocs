@@ -16,4 +16,4 @@ For visualization **Paraview** and **OpenCOR** will be used.
 
 - **OpenCOR** three cell models are interpreted and visualized. 
 
--**Terminal code** process in the terminal used to install cbcbeat related to **Installation** section 
+- **Terminal code** process in the terminal used to install cbcbeat related to **Installation** section 
