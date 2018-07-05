@@ -141,7 +141,21 @@ There are two different **versions** of this model. The a version is a full desc
 
 ### 2.4.1 Comparison Ventricular vs Atrial models 
 
-![screen shot 2018-07-05 at 11 56 39 am](https://user-images.githubusercontent.com/39902241/42316602-8dab36b8-804a-11e8-895a-ccdbe22c4533.png)
+![screen shot 2018-07-05 at 12 39 21 pm](https://user-images.githubusercontent.com/39902241/42318875-9d12c778-8050-11e8-908e-b9950f5f05b2.png)
+Caption: 
+- Action potential **(AP)** 
+
+- Transient outward current **(I_t)**
+
+- Ca+2 dependent K+ current **(IK(Ca))**
+
+- Maintained time and voltage dependent delayed rectifier K+ current **(IK)**
+
+- Inward rectifying K+ current **(IK1)**.  It is the outward current generating resting membrane potential and modulating final repolarization in both atria and ventricle. 
+
+- Slowly inactivating sustained outward current **(I(so)) **
+
+- Rapid inactivation outward current **(I(to))**. 
 
 ### 2.4.2 Courtemanche cell model 
 
