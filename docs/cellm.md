@@ -145,7 +145,7 @@ There are two different **versions** of this model. The a version is a full desc
 Caption: 
 - Action potential **(AP)** 
 
-- Transient outward current **(I_t)**
+- Transient outward current **($I_t$)**
 
 - Ca+2 dependent K+ current **(IK(Ca))**
 
