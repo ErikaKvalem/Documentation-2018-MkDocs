@@ -9,15 +9,15 @@ For visualization **Paraview** and **OpenCOR** will be used.
 
 ## Sections
 
-- **Installation** step by step documentation for the set-up of fenics+cbcbeat on Mac using Docker.
+- **Installation**:  Step by step documentation for the set-up of fenics+cbcbeat on Mac using Docker.
 
-- **Cell models** section electrophysiological Cell models are explained, both atrial and ventricular, from basic to more complex models. 
+- **Cell models**: Electrophysiological cell models are explained, both atrial and ventricular, from basic to more complex models. 
 
-- **Tutorial** section two demos from **cbcbeat** can be found explained line by line
+- **Tutorial**:  Two demos from **cbcbeat** explained line by line 
 
-- **OpenCOR** three cell models are interpreted and visualized. 
+- **OpenCOR**: Three cell models are interpreted and visualized. 
 
-- **Terminal code** process in the terminal used to install cbcbeat related to **Installation** section 
+- **Terminal code**: Process in the terminal used to install cbcbeat related to **Installation** section 
 
 
 
