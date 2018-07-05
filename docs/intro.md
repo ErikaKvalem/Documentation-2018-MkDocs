@@ -1,4 +1,4 @@
-# Introduction 
+
 
 This is a step by step explanation on how to install **The fenics project** and **cbcbeat** in Mac using **Docker**. 
 
