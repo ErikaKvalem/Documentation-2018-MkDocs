@@ -139,6 +139,10 @@ There are two different **versions** of this model. The a version is a full desc
 
 ## 2.4 Atrial cell models 
 
+### 2.4.1 Comparison Ventricular vs Atrial models 
+
+### 2.4.2 Courtemanche cell model 
+
 
 
 
