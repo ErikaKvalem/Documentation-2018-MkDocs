@@ -1,6 +1,6 @@
-# 3. Tutorial cbcbeat
+# 4. Tutorial cbcbeat
 
-## 3.1 demo_monodomain.py
+## 4.1 demo_monodomain.py
 
 To run both The Beeler-Reuter model and FitzHugh-Nagumo model the demo_monodomain.py provided by cbcbeat was used. This code goes as expalined here:
 
@@ -175,7 +175,7 @@ interactive()
 ```
 
 
-## 3.2 demo_single_cell_solverm.py
+## 4.2 demo_single_cell_solverm.py
 
 **1**.	The first lines are comments describing what the demo is used for. 
 
