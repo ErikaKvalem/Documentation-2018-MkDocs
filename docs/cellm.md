@@ -1,7 +1,7 @@
 
 
-# 2. Documentation on Electrophysiological (atrial) Cell models 
-## 2.1 Introduction 
+# 3. Documentation on Electrophysiological (atrial) Cell models 
+## 3.1 Introduction 
 
 The main goal of this documentation is to introduce the reader into **electrophysiological (atrial) cell models**. 
 
@@ -15,7 +15,7 @@ Other important names have been for example **Noble**, **Beeler-Reuter**, **Luo-
 
 
 
-## 2.2 The Hodgkin–Huxley model
+## 3.2 The Hodgkin–Huxley model
 By Alan Lloyd Hodgkin and Andrew Fielding Huxley (1952) 
 
 This model is mentioned here since it basic for the understanding of more complex models. 
@@ -66,7 +66,7 @@ $\frac{D_h}{dt}={\alpha_h}{V_m}{(1-h)}-{\beta_h}{V_m}{h}$
 
 
 
-## 2.3 Ventricular Cell models 
+## 3.3 Ventricular Cell models 
 
 The development of models historically has focused more on the **left ventricle**, this is the reason why there are more information available related to this topic rather than to **atria models**. 
 
@@ -75,7 +75,7 @@ For this reason, this section was created since having a background on ventricul
 The ventricular models that will be mentioned are **The Beeler Reuter model**, **The FitzHugh-Nagumo model** and  **ten Tusscher, Panfilov 2006 model**. 
 Other related  models:  **The Luo Rudy dynamic model** and **The Aliev-Panfilov model**.
 
-### 2.3.2 The Beeler Reuter model
+### 3.3.2 The Beeler Reuter model
 By: Penny Noble
 
 Reference code: [Flavio Fenton's Java code](http://thevirtualheart.org/)
@@ -94,7 +94,7 @@ The equations for this modeled will not be covered here since they are of a high
 
 ![beeler_reuter_1977](https://user-images.githubusercontent.com/39902241/41973581-a772038c-7a15-11e8-80f7-3dc8a3642995.png)
 
-### 2.3.3 The FitzHugh-Nagumo model
+### 3.3.3 The FitzHugh-Nagumo model
 
 By: Penny Noble 
 
@@ -119,7 +119,7 @@ f(V) = **polynomial** of degree 3
 a,b and c = **Constant** parameters
 
 
-### 2.3.4 The ten Tusscher, Panfilov, 2006 
+### 3.3.4 The ten Tusscher, Panfilov, 2006 
 
 By: Penny Noble of Oxford University
 
@@ -137,9 +137,9 @@ There are two different **versions** of this model. The a version is a full desc
 
 ![screen shot 2018-07-02 at 3 07 12 pm](https://user-images.githubusercontent.com/39902241/42165898-b2ad9732-7e09-11e8-94c6-9dfa04f0c6df.png)
 
-## 2.4 Atrial cell models 
+## 3.4 Atrial cell models 
 
-### 2.4.1 Comparison Ventricular vs Atrial models 
+### 3.4.1 Comparison Ventricular vs Atrial models 
 
 ![screen shot 2018-07-05 at 12 39 21 pm](https://user-images.githubusercontent.com/39902241/42318875-9d12c778-8050-11e8-908e-b9950f5f05b2.png)
 Caption: 
@@ -157,7 +157,7 @@ Caption:
 
 - Rapid inactivation outward current **(I(to))**. 
 
-### 2.4.2 Courtemanche cell model 
+### 3.4.2 Courtemanche cell model 
 
 
 
