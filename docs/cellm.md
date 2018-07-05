@@ -137,6 +137,8 @@ There are two different **versions** of this model. The a version is a full desc
 
 ![screen shot 2018-07-02 at 3 07 12 pm](https://user-images.githubusercontent.com/39902241/42165898-b2ad9732-7e09-11e8-94c6-9dfa04f0c6df.png)
 
+## 2.4 Atrial cell models 
+
 
 
 
