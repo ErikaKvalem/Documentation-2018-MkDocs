@@ -6,6 +6,7 @@ The final aim of this whole process is to be able to use Fenics and cbcbeat to *
 
 For visualization **Paraview** and **OpenCOR** will be used. 
 
+
 ## Sections
 
 - **Installation** step by step documentation for the set-up of fenics+cbcbeat on Mac using Docker.
@@ -17,3 +18,9 @@ For visualization **Paraview** and **OpenCOR** will be used.
 - **OpenCOR** three cell models are interpreted and visualized. 
 
 - **Terminal code** process in the terminal used to install cbcbeat related to **Installation** section 
+
+
+
+
+
+This documentation was developed by **Erika Kvalem Soto** in the context of a summer internship at **Simula Research Laboratory** as a contribution to the **SysAFib** project 
