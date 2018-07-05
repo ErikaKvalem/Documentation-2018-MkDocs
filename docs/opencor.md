@@ -1,7 +1,7 @@
-# 4. CellML models in OpenCOR 
+# 5. CellML models in OpenCOR 
 For a better understanding of the models **OpenCOR** is used in order to visualize the behaviour of the different key parameters of the model.
 
-## 4.1 The Beeler Reuter model 
+## 5.1 The Beeler Reuter model 
 
 The following screenshot refers to the **Beeler Reuter model** run by OpenCOR. There are four plots regarding the different parameters.
 
@@ -17,7 +17,7 @@ The last plot refers to the **second slower inactivation gate j**. This is a spe
 
 ![beelerreuter2](https://user-images.githubusercontent.com/39902241/42158670-68bdde56-7df1-11e8-9662-d92f4916b663.jpg)
 
-## 4.2 The Fitzhugh Nagumo model 
+## 5.2 The Fitzhugh Nagumo model 
 
 The following screenshot refers to the **Fitzhugh Nagumo model**  run by OpenCOR. There are two plots regarding the different parameters. 
 
@@ -29,7 +29,7 @@ This helps the **V(t)** to recover in a **progressive** way until the threshold 
 
 ![fitzhughnagumo1](https://user-images.githubusercontent.com/39902241/42159608-ae84695c-7df4-11e8-91f9-6da7f53e6f98.jpg) 
 
-## 4.3 The ten Tusscher, Panfilov, 2006 model 
+## 5.3 The ten Tusscher, Panfilov, 2006 model 
 
 This model is slightly more complex than the ones previously mentioned. It uses 12 transmembrane currents listed here: 
 
