@@ -76,7 +76,7 @@ The ventricular models that will be mentioned are **The Beeler Reuter model**, *
 Other related  models:  **The Luo Rudy dynamic model** and **The Aliev-Panfilov model**.
 
 ### 3.3.2 The Beeler Reuter model
-By: Penny Noble
+By: Penny Noble of Oxford University
 
 Reference code: [Flavio Fenton's Java code](http://thevirtualheart.org/)
 
@@ -96,7 +96,8 @@ The equations for this modeled will not be covered here since they are of a high
 
 ### 3.3.3 The FitzHugh-Nagumo model
 
-By: Penny Noble 
+By: Penny Noble of Oxford University
+
 
 #### Model description
 
@@ -133,7 +134,7 @@ This model is used to study **ventricular fibrilation** since dynamical inestabi
 
 There are two different **versions** of this model. The a version is a full description of the Ca+2 dynamics **(17 variables)** and the b option is a simplified version with **9 variables** ( voltage and 8 gates). 
 
-### Schematic representation
+#### Schematic representation
 
 ![screen shot 2018-07-02 at 3 07 12 pm](https://user-images.githubusercontent.com/39902241/42165898-b2ad9732-7e09-11e8-94c6-9dfa04f0c6df.png)
 
@@ -143,6 +144,7 @@ There are two different **versions** of this model. The a version is a full desc
 
 ![screen shot 2018-07-05 at 12 39 21 pm](https://user-images.githubusercontent.com/39902241/42318875-9d12c778-8050-11e8-908e-b9950f5f05b2.png)
 Caption: 
+
 - Action potential **(AP)** 
 
 - Transient outward current **($I_t$)**
@@ -158,6 +160,12 @@ Caption:
 - Rapid inactivation outward current **(I(to))**. 
 
 ### 3.4.2 Courtemanche cell model 
+
+By: Penny Noble of Oxford University
+
+#### Model description
+
+####  Schematic representation
 
 
 
