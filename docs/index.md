@@ -1,14 +1,8 @@
 # Documentation for the set-up of fenics+cbcbeat on Mac using Docker. 04/06/18
 
-## 1.	Introduction:
+**Fenics** can be installed in four different ways; using **Docker, Ubuntu, Anaconda or from source**. In this case **Docker containers** have been chosen. 
 
-This is a step by step explanation on how to install **The fenics project** and **cbcbeat** in Mac using **Docker**. 
-
-The final aim of this whole process is to be able to use Fenics and cbcbeat to **run cell and 2D tissue simulations and visualize them.** 
-
-Fenics can be installed in four different ways; using Docker, Ubuntu, Anaconda or from source. In this case *Docker containers* have been chosen. 
-
-Other programs that are going to be also used along the process are **OpenCOR** and **Paraview** 
+Other programs that are going to be also used along the process are **cbcbeat**, **OpenCOR** and **Paraview** 
 
 ## 2.	Specifications:
 
