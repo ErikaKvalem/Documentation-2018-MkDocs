@@ -4,14 +4,14 @@
 
 Other programs that are going to be also used along the process are **cbcbeat**, **OpenCOR** and **Paraview** 
 
-## 2.	Specifications:
+## 2.1.	Specifications
 
 macOS High Sierra. 
 Version10.13.2 
 MacBook Air 2014
 
 
-## 3.	Docker:
+## 2.2.	Docker
 
 Installing Docker is the first step of this process.  To download it and install it, use the following [link](https://www.docker.com/community-edition#/download) should be used: 
 
@@ -54,7 +54,7 @@ Furthermore, to check if Docker is correctly installed the command **“ docker 
 
 For more documentation on getting started with Docker use this [link](https://docs.docker.com/get-started/).
 
-## 4. Fenics 
+## 2.3. Fenics 
 
 It is important to notice that Fenics is Python based so it is necessary to have Python installed in the machine before installing Fenics. It is important to download *Python 2* since it is the one working with cbcbeat. [Link](https://www.python.org/downloads/) to download it. 
 
@@ -159,7 +159,7 @@ fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ cp * /home/fenic
 fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$ 
 ```
 
-## 5. Cbcbeat
+## 2.4. Cbcbeat
 
 **Cbcbeat** is manly used in *computational cardiac electrophysiology*. This is the [main page](http://cbcbeat.readthedocs.io/en/latest/)
 for the documentation. 
@@ -279,7 +279,7 @@ Then run in the terminal:
 
 To see the full process done in the terminal during the installation of cbcbeat and the expected output of the commands go to **Terminal Code** in this documentation. 
 
-## 6. OpenCOR
+## 2.5. OpenCOR
 
 **OpenCOR** is an **open source** tool for creating and visualizing **standards-based models** and running model simulations. It is the latest in a series of software projects whihch goal is to provide a **modelling environment** for **CellML models**.
 
@@ -288,7 +288,7 @@ This is the [main page](http://www.opencor.ws) from where OpenCOR can be downloa
 This is the link to the [OpenCOR tutorial](https://media.readthedocs.org/pdf/tutorial-on-cellml-opencor-and-pmr/latest/tutorial-on-cellml-opencor-and-pmr.pdf) Release 0.17.0 by Peter Hunter on Mar 2018. 
 
 
-## 7. ParaView
+## 2.6. ParaView
 
 [**ParaView**](https://www.paraview.org/overview/) is an **open-source**, multi-platform data analysis and **visualization application**.  ParaView was developed to analyze **extremely large datasets** using distributed memory computing resources. 
 
