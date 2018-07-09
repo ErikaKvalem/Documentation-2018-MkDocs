@@ -29,6 +29,10 @@ This helps the **V(t)** to recover in a **progressive** way until the threshold 
 
 ![fitzhughnagumo1](https://user-images.githubusercontent.com/39902241/42159608-ae84695c-7df4-11e8-91f9-6da7f53e6f98.jpg) 
 
+Paraview visualization: 
+
+<a href="https://imgflip.com/gif/2dnqo8"><img src="https://i.imgflip.com/2dnqo8.gif" title="made at imgflip.com"/></a>
+
 ## 5.3 The ten Tusscher, Panfilov, 2006 model 
 
 This model is slightly more complex than the ones previously mentioned. It uses 12 transmembrane currents listed here: 
