@@ -241,6 +241,25 @@ $I_ion = I_Na + I_K1 + I_to + I_Kur + I_Kr + I_Ks + I_Ca,L + I_p,Ca + I_NaK + I_
 
 ### 3.4.3 Maleckar 2009 cell model 
 
+By:  Mary M. Maleckara, Joseph L. Greensteina, Natalia A. Trayanova and Wayne R. Giles
+
+#### Model description
+
+This model is a mathematical model based on the **Nygren model**. Its purpose is to understand **cell to cell interactions** within paracrine environement of **human atrial myocardyum**. 
+
+The model was developed after a exhaustive analysis of the heterogeneous cell to cell interactions on **atrial myocytes** and its effects on **AP**. For this porpuse two extra currents are introduced in this model:
+
+- **Acetylchiline activated K+ current**
+
+- **Non selective cation current**
+
+This model shows how **non linear interactions** between **ionics currents** in the human atrial myocyte have direct effects on **actylcholine** and cause alterations in the  **AP waveform**.
+
+####  Schematic representation
+
+![maleckar_2009](https://user-images.githubusercontent.com/39902241/42506273-b24118bc-8441-11e8-8f23-560db8fe7352.png)
+
+
 
 
 
