@@ -197,6 +197,9 @@ Time independent currents:
 
 ####  Schematic representation
 
+![nygren_1998](https://user-images.githubusercontent.com/39902241/42502081-6e17d056-8435-11e8-9d1a-06d0af20d1a8.png)
+
+
 ### 3.4.2 Courtemanche 1998 cell model 
 
 By: Penny Noble of Oxford University
