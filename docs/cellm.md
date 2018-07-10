@@ -138,9 +138,9 @@ There are two different **versions** of this model. The a version is a full desc
 
 ![screen shot 2018-07-02 at 3 07 12 pm](https://user-images.githubusercontent.com/39902241/42165898-b2ad9732-7e09-11e8-94c6-9dfa04f0c6df.png)
 
-## 3.4 Atrial cell models 
+ 
 
-### 3.4.1 Comparison Ventricular vs Atrial models 
+## 3.4 Comparison Ventricular vs Atrial models 
 
 ![screen shot 2018-07-05 at 12 39 21 pm](https://user-images.githubusercontent.com/39902241/42318875-9d12c778-8050-11e8-908e-b9950f5f05b2.png)
 Caption: 
@@ -159,7 +159,45 @@ Caption:
 
 - Rapid inactivation outward current **(I(to))**. 
 
-### 3.4.2 Courtemanche cell model 
+## 3.5 Atrial cell models
+
+### 3.4.1 Nygren 1998 cell model
+By: A. Nygren, C. Fiset, L. Firek, J.W. Clark, D.S. Lindblad, R.B. Clark and W.R. Giles
+
+#### Model description
+
+This is a **mathematical model** of an **adult human atrial cell**. It uses an **electrical circuit** for the sarcolemma coupled to a **fluid compartment model**. This second part of the model accounts for the changesin ionic concentrations in the cytoplasm and sacoplasmic reticulum. This models focus mainly in the important role of the **sustained outward K+ current ($I_sus$)** that is directly related with the **duration of the AP** in human atrial cells. This model also shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K+ current ($I_sus$)**, and **L-type Ca+2 current ($I_CaL$)**. This model suggest that the functional role of **($I_sus$)** depends on the physiological state of the cell. 
+
+This model uses the following membrane currents: 
+
+- **$I_Na$** Na+ current
+
+- **$I_CaL$** L-type Ca+2 current
+
+- **$I_t$** Transient outward current
+
+- **$I_sus$** Sustained outward K+ current 
+
+- **$I_K,r$** Delayed  rapid rectifier K+ current 
+
+- **$I_K,s$** Delayed  slow rectifier K+ current 
+
+Time independent currents: 
+
+- **$I_K1$** Inward rectifying K+ current
+
+- **$I_CaP$**  Ca+2 pump current 
+- **$I_NaK$**  Na+-K+ pump current
+
+- **$I_NaCa$** Na+-Ca+2 exchanger current 
+
+- **$I_B,Na$** Na+ background (leakage) current
+
+- **$I_B,Ca$** Ca+2 background (leakage) current
+
+####  Schematic representation
+
+### 3.4.2 Courtemanche 1998 cell model 
 
 By: Penny Noble of Oxford University
 
@@ -168,6 +206,8 @@ By: Penny Noble of Oxford University
 ####  Schematic representation
 
 ![courtmanchess](https://user-images.githubusercontent.com/39902241/42322043-3a89ae40-805b-11e8-9c14-a4b082b1c2b3.png)
+
+### 3.4.3 Maleckar 2009 cell model 
 
 
 
