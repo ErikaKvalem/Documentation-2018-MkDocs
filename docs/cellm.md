@@ -214,9 +214,30 @@ By: Penny Noble of Oxford University
 
 #### Model description
 
+This is a  **mathematical** model of the **human atrial AP** based on **Luo Rudy** guinea pig ventricular cells model.
+
+Its main goal is to explain the underlying ionic mechanisms controlling human atrial AP. 
+
+The model explains how strong reductions in **$I_Ca,L$** (due to disease or intentionally blocked by drugs) can lead to the loss of **rate adaptation of the AP** and contribute to the susceptibility to **Atrial fibrilation (AF)**.
+
+Furthermore, this model shows the importante of **Transient outward K1 current** (**$I_to$**). This current is a key current in the plateaus phase of the AP. Variations in  **$I_to$** cause **AP variability** and therefore can induce to **AF**. 
+
+This model has 21 variables:
+- Voltage 
+- 12 gating varibables for transmembrane currents
+- 3 gating variables for Ca+2 release current from SR 
+- Intracellular Na+ 
+- Intracellular K+
+
+Total ionic current:
+
+$I_ion = I_Na + I_K1 + I_to + I_Kur + I_Kr + I_Ks + I_Ca,L + I_p,Ca + I_NaK + I_NaCa + I_b,Na + I_b,Ca$
+
+
 ####  Schematic representation
 
 ![courtmanchess](https://user-images.githubusercontent.com/39902241/42322043-3a89ae40-805b-11e8-9c14-a4b082b1c2b3.png)
+
 
 ### 3.4.3 Maleckar 2009 cell model 
 
