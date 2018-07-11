@@ -71,6 +71,20 @@ The interpretation and relation of the graphs is out of the scope of this page. 
 
 ## 5.4 Nygren 1998 cell  model 
 
+ The following screenshot refers to the **Nygren 1998 cell  model **  run by OpenCOR.
+ 
+ The graphs refer to the **ionic current** waveforms during **AP**. **$I_Na$** is the first to respond to depolarizing stimulus pulse (delivered at time=0.1). **$I_Na$**  activates rapidly and therefore there is a large **transient inward current**. This will generate the upstroke in the initial phase of the AP. 
+ 
+ In the depolarizing phase **$I_t$**, **$I_sus$** and **$I_CaL$** are also activated. **$I_t$**, **$I_sus$** reach their peak faster than **$I_CaL$** resulting in a bigger magnitude. This leads to rapid repolarization dominated by **$I_t$**. Since time of inactivation is bigger for **$I_CaL$** the net current is gradually dominated by it. 
+ 
+ At the plateau phase of the AP there is a balance between **$I_sus$** (and remaining  **$I_t$**) repolarizing and **$I_CaL$** depolarizing. 
+ 
+ When **$I_CaL$** inactivates, **$I_sus$** dominates and togheter with rectifier currents **($I_K1$, $I_K,r$, $I_K,s$)** the cell AP goes back to **resting potential**.
+
+
+![screen shot 2018-07-11 at 11 12 48 am](https://user-images.githubusercontent.com/39902241/42563196-eaf838ae-84fd-11e8-8aef-96dd5ad7ff9f.jpg)
+
+
 ## 5.5 Courtemanche 1998 cell model
 
 ## 5.6 Maleckar 2009 cell model
