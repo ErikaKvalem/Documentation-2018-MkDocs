@@ -69,6 +69,12 @@ The interpretation and relation of the graphs is out of the scope of this page. 
 
 ![tentussher](https://user-images.githubusercontent.com/39902241/42164153-610cf7fa-7e05-11e8-8f0b-6976fc2bbd2b.jpg)
 
+## 5.4 Nygren 1998 cell  model 
+
+## 5.5 Courtemanche 1998 cell model
+
+## 5.6 Maleckar 2009 cell model
+
 
 
 
