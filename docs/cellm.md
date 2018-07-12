@@ -46,6 +46,8 @@ It is a set of **nonlinear differential equations** that approximates the ele
 
 **Total current**: $I = {C_m}\frac{dV_m}{dt} + {g_(Na)}{(V_m-V_(Na))} + {g_K}{(V_m-V_K)}+ {g_L}{(V_m-V_L)}$
 
+* V in the equations refers to E in the circuit and g is equivalent to R *
+
 **Legend**: 
 
 $R_i$ = Represents the different **ion channels*
