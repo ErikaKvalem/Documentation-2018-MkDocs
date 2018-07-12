@@ -17,9 +17,3 @@ markdown_extensions:
 extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML']
 
 
-var links = document.getElementsByTagName('a');
-for (var i = 0; i < links.length; i++){
-    var parser = document.createElement('a');
-    parser.href = links[i].href;
-    links[i].target="blank";
-}
