@@ -10,7 +10,7 @@ Since the mechanisms underlying **AFib** are poorly understood it is very helpfu
 
 In this documentation, a detailed explanation on how to install **The fenics project** and **Cbcbeat** in **Mac**using **Docker** is given. Moreover, some highlited **cardiac cell models** are described. It can also be found a tutorial on cbcbeat for 2 demos explaining what the code is doing from a general point of view. Furthermore, **OpenCOR** and **ParaView** visualization of the solutions ir provided. 
 
-
+The development of this repository has been done in the context of [**SysAFib project**](https://www.simula.no/research/projects/sysafib-systems-medicine-diagnosis-and-stratification-atrial-fibrillation) at [**Simula Research Laboratories**](https://www.simula.no/) during the summer 2018. The project will be presented at [**VPH2018**](http://vph-conference.org/)
 
 
 
