@@ -96,6 +96,8 @@ The equations for this modeled will not be covered here since they are of a high
 
 ![beeler_reuter_1977](https://user-images.githubusercontent.com/39902241/41973581-a772038c-7a15-11e8-80f7-3dc8a3642995.png)
 
+The cell membrane is represented in blue and the ionic channels in yellow. There are only 4 ionic channels and 4 ionic currents. 8 variables in total. This is a very basic model. 
+
 ### 3.3.3 The FitzHugh-Nagumo model
 
 By: Penny Noble of Oxford University
@@ -132,15 +134,15 @@ This model describes **human epicardial, endocardial and midmyocardial cells**. 
 
 This model focus on  **Action potential durantion (APD)** restitution and **intracellular Ca+2 dynamics**. 
 
-This model is used to study **ventricular fibrilation** since dynamical inestabilities in APD are directly related to it.The key concept for inestability is the **recovery dynamics of fast Na+ current**.  Slower Na+ current recovery means **longer periods** of spiral wave rotation and more gradual **conduction velocity restitution**. And these two things lead to **inestability**.
+This model is used to study **ventricular fibrilation** since dynamical inestabilities in APD are directly related to it. The key concept for inestability is the **recovery dynamics of fast Na+ current**.  Slower Na+ current recovery means **longer periods** of spiral wave rotation and more gradual **conduction velocity restitution**. And these two things lead to **inestability**.
 
-There are two different **versions** of this model. The a version is a full description of the Ca+2 dynamics **(17 variables)** and the b option is a simplified version with **9 variables** ( voltage and 8 gates). 
+There are two different **versions** of this model. The *A* version is a full description of the Ca+2 dynamics **(17 variables)** and the *B* option is a simplified version with **9 variables** ( voltage and 8 gates). 
 
 #### Schematic representation
 
 ![screen shot 2018-07-02 at 3 07 12 pm](https://user-images.githubusercontent.com/39902241/42165898-b2ad9732-7e09-11e8-94c6-9dfa04f0c6df.png)
 
- 
+*A* version of the model including Ca+2 dynamic. Taking into account troponin, Calmodulin and Calsequestrin.  
 
 ## 3.4 Comparison Ventricular vs Atrial models 
 
@@ -209,6 +211,7 @@ Time independent currents:
 
 ![nygren_1998](https://user-images.githubusercontent.com/39902241/42502081-6e17d056-8435-11e8-9d1a-06d0af20d1a8.png)
 
+Electrical circuit on the right (sarcolema)  coupled to fluid compartment model (left). It is represented how Ca+2 dynamics are in the SR and cytoplasm.
 
 ### 3.4.2 Courtemanche 1998 cell model 
 
@@ -225,10 +228,15 @@ The model explains how strong reductions in **$I_Ca,L$** (due to disease or inte
 Furthermore, this model shows the importante of **Transient outward K1 current** (**$I_to$**). This current is a key current in the plateaus phase of the AP. Variations in  **$I_to$** cause **AP variability** and therefore can induce to **AF**. 
 
 This model has 21 variables:
+
 - Voltage 
+
 - 12 gating varibables for transmembrane currents
+
 - 3 gating variables for Ca+2 release current from SR 
+
 - Intracellular Na+ 
+
 - Intracellular K+
 
 Total ionic current:
@@ -240,6 +248,7 @@ $I_ion = I_Na + I_K1 + I_to + I_Kur + I_Kr + I_Ks + I_Ca,L + I_p,Ca + I_NaK + I_
 
 ![courtmanchess](https://user-images.githubusercontent.com/39902241/42322043-3a89ae40-805b-11e8-9c14-a4b082b1c2b3.png)
 
+Representation of the cell membrane with all the ionic channels (yellow) that the model takes into account (12) and intracellular Na+ and K+ ( 2 blue channels). Inside it is represented the Sarcoplasmic reticulum ( 3 ionic channels).
 
 ### 3.4.3 Maleckar 2009 cell model 
 
@@ -260,6 +269,10 @@ This model shows how **non linear interactions** between **ionics currents** in 
 ####  Schematic representation
 
 ![maleckar_2009](https://user-images.githubusercontent.com/39902241/42506273-b24118bc-8441-11e8-8f23-560db8fe7352.png)
+
+Same representation as in Nygren model. Including now acetylchiline activated K+ current and non selective cation current. 
+
+
 
 
 
