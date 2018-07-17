@@ -1,0 +1,17 @@
+site_name: Documentation Simula 2018
+pages: 
+     - Introduction: intro.md
+     - Installation: index.md 
+     - Cell Models: cellm.md
+     - Tutorial: tutorial.md
+     - OpenCOR: opencor.md
+     - Terminal code: tcode.md
+     - Acknowledgment: Acknow.md
+     - Bibliography: Bib.md
+
+theme: readthedocs
+markdown_extensions: 
+    - mdx_math:
+        enable_dollar_delimiter: True #for use of inline $..$
+
+extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML']
