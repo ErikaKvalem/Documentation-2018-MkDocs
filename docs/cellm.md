@@ -24,7 +24,10 @@ It is a **Conductance-based** model, mathematical model that describes how **
 
 It is a set of **nonlinear differential equations** that approximates the electrical characteristics of excitable cells **(continuous time model)**. 
 
-**Hodgkin and Huxley** found **three** different types of **ion current**; sodium **(Na+)**, potassium **(K+)**, and a **leak current** that consists mainly of **Cl-**. In the cell membrane, there are specific **voltage-gated ion channels** one for each type of ion mentioned before. The components are the following:
+This is some <sup>superscript</sup> text.
+
+This is some <sub>subscript</sub> text.
+**Hodgkin and Huxley** found **three** different types of **ion current**; sodium **(Na<sup>+</sup>)**, potassium **(K+)**, and a **leak current** that consists mainly of **Cl-**. In the cell membrane, there are specific **voltage-gated ion channels** one for each type of ion mentioned before. The components are the following:
 
 - The semipermeable **cell membrane** acts as a **capacitor ($C_m$)**. 
 
