@@ -27,7 +27,7 @@ It is a set of **nonlinear differential equations** that approximates the ele
 This is some <sup>superscript</sup> text.
 
 This is some <sub>subscript</sub> text.
-**Hodgkin and Huxley** found **three** different types of **ion current**; sodium **(Na+)**, potassium **(K+)**, and a **leak current** that consists mainly of **Cl-**. In the cell membrane, there are specific **voltage-gated ion channels** one for each type of ion mentioned before. The components are the following:
+**Hodgkin and Huxley** found **three** different types of **ion current**; sodium **(Na<sup>+</sup>)**, potassium **(K<sup>+</sup>)**, and a **leak current** that consists mainly of **Cl<sup>-</sup>**. In the cell membrane, there are specific **voltage-gated ion channels** one for each type of ion mentioned before. The components are the following:
 
 - The semipermeable **cell membrane** acts as a **capacitor ($C_m$)**. 
 
@@ -91,7 +91,7 @@ Reference code: [Flavio Fenton's Java code](http://thevirtualheart.org/)
 
 It is a very basic model where the **total ionic flux** is divided into only **four individual ionic currents**. However, it includes a representation of the **intracellular calcium ion concentration**. 
 
-Moreover, it implements a **fast-inward** Na+ current, a second **slower inactivation gate**, a **time-dependent outward current**, a **time-independent K+ outward current** and a **slow inward current** carried primarily by **Ca+2**. For this purpose, **eight variables** are used. 
+Moreover, it implements a **fast-inward** Na+ current, a second **slower inactivation gate**, a **time-dependent outward current**, a **time-independent K<sup>+</sup> outward current** and a **slow inward current** carried primarily by **Ca<sup>+2</sup>**. For this purpose, **eight variables** are used. 
 
 The equations for this modeled will not be covered here since they are of a higher level of complexity. However they can be found by running the **JSim model applet** and clicking on the Source tab at the bottom left of JSim's Run Time graphical user interface. The equations are written in **JSim's Mathematical Modeling Language (MML)**. 
 
@@ -135,17 +135,17 @@ By: Penny Noble of Oxford University
 
 This model describes **human epicardial, endocardial and midmyocardial cells**. Multiple action potentials can be stimulated at the same time with frequency 1 Hz. 
 
-This model focus on  **Action potential durantion (APD)** restitution and **intracellular Ca+2 dynamics**. 
+This model focus on  **Action potential durantion (APD)** restitution and **intracellular Ca<sup>+2</sup> dynamics**. 
 
 This model is used to study **ventricular fibrilation** since dynamical inestabilities in APD are directly related to it. The key concept for inestability is the **recovery dynamics of fast Na+ current**.  Slower Na+ current recovery means **longer periods** of spiral wave rotation and more gradual **conduction velocity restitution**. And these two things lead to **inestability**.
 
-There are two different **versions** of this model. The *A* version is a full description of the Ca+2 dynamics **(17 variables)** and the *B* option is a simplified version with **9 variables** ( voltage and 8 gates). 
+There are two different **versions** of this model. The *A* version is a full description of the Ca<sup>+2</sup> dynamics **(17 variables)** and the *B* option is a simplified version with **9 variables** ( voltage and 8 gates). 
 
 #### Schematic representation
 
 ![screen shot 2018-07-02 at 3 07 12 pm](https://user-images.githubusercontent.com/39902241/42165898-b2ad9732-7e09-11e8-94c6-9dfa04f0c6df.png)
 
-*A* version of the model including Ca+2 dynamic. Taking into account troponin, Calmodulin and Calsequestrin.  
+*A* version of the model including Ca<sup>+2</sup> dynamic. Taking into account troponin, Calmodulin and Calsequestrin.  
 
 ## 3.4 Comparison Ventricular vs Atrial models 
 
@@ -177,9 +177,9 @@ This is a **mathematical model** of an **adult human atrial cell**.
 
 It uses an **electrical circuit** for the sarcolemma coupled to a **fluid compartment model**. This second part of the model accounts for the changesin ionic concentrations in the cytoplasm and sacoplasmic reticulum. 
 
-This models focus mainly in the important role of the **sustained outward K+ current ($I_sus$)** that is directly related with the **duration of the AP** in human atrial cells. 
+This models focus mainly in the important role of the **sustained outward K<sup>+</sup> current ($I_sus$)** that is directly related with the **duration of the AP** in human atrial cells. 
 
-Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K+ current ($I_sus$)**, and **L-type Ca+2 current ($I_CaL$)**. 
+Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current ($I_sus$)**, and **L-type Ca<sup>+2</sup> current ($I_CaL$)**. 
 
 As a result it suggest that the functional role of **($I_sus$)** depends on the physiological state of the cell. 
 
@@ -236,7 +236,7 @@ This model has 21 variables:
 
 - 12 gating varibables for transmembrane currents
 
-- 3 gating variables for Ca+2 release current from SR 
+- 3 gating variables for Ca<sup>+2</sup> release current from SR 
 
 - Intracellular Na+ 
 
@@ -263,7 +263,7 @@ This model is a mathematical model based on the **Nygren model**. Its purpose is
 
 The model was developed after a exhaustive analysis of the heterogeneous cell to cell interactions on **atrial myocytes** and its effects on **AP**. For this porpuse two extra currents are introduced in this model:
 
-- **Acetylchiline activated K+ current**
+- **Acetylchiline activated K<sup>+</sup> current**
 
 - **Non selective cation current**
 
@@ -273,7 +273,7 @@ This model shows how **non linear interactions** between **ionics currents** in 
 
 ![maleckar_2009](https://user-images.githubusercontent.com/39902241/42506273-b24118bc-8441-11e8-8f23-560db8fe7352.png)
 
-Same representation as in Nygren model. Including now acetylchiline activated K+ current and non selective cation current. 
+Same representation as in Nygren model. Including now acetylchiline activated K<sup>+</sup> current and non selective cation current. 
 
 
 
