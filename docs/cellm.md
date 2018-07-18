@@ -24,9 +24,7 @@ It is a **Conductance-based** model, mathematical model that describes how **
 
 It is a set of **nonlinear differential equations** that approximates the electrical characteristics of excitable cells **(continuous time model)**. 
 
-This is some <sup>superscript</sup> text.
 
-This is some <sub>subscript</sub> text.
 **Hodgkin and Huxley** found **three** different types of **ion current**; sodium **(Na<sup>+</sup>)**, potassium **(K<sup>+</sup>)**, and a **leak current** that consists mainly of **Cl<sup>-</sup>**. In the cell membrane, there are specific **voltage-gated ion channels** one for each type of ion mentioned before. The components are the following:
 
 - The semipermeable **cell membrane** acts as a **capacitor ($C_m$)**. 
@@ -168,7 +166,7 @@ Caption:
 
 ## 3.5 Atrial cell models
 
-### 3.4.1 Nygren 1998 cell model
+### 3.5.1 Nygren 1998 cell model
 By: A. Nygren, C. Fiset, L. Firek, J.W. Clark, D.S. Lindblad, R.B. Clark and W.R. Giles
 
 #### Model description
@@ -177,11 +175,11 @@ This is a **mathematical model** of an **adult human atrial cell**.
 
 It uses an **electrical circuit** for the sarcolemma coupled to a **fluid compartment model**. This second part of the model accounts for the changesin ionic concentrations in the cytoplasm and sacoplasmic reticulum. 
 
-This models focus mainly in the important role of the **sustained outward K<sup>+</sup> current ($I_sus$)** that is directly related with the **duration of the AP** in human atrial cells. 
+This models focus mainly in the important role of the **sustained outward K<sup>+</sup> current ($I sup>sus</sup>$)** that is directly related with the **duration of the AP** in human atrial cells. 
 
-Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current ($I_sus$)**, and **L-type Ca<sup>+2</sup> current ($I_CaL$)**. 
+Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current ($I sup>sus</sup>$)**, and **L-type Ca<sup>+2</sup> current ($I sup>CaL</sup>$)**. 
 
-As a result it suggest that the functional role of **($I_sus$)** depends on the physiological state of the cell. 
+As a result it suggest that the functional role of **($I sup>sus</sup>$)** depends on the physiological state of the cell. 
 
 This model uses the following membrane currents: 
 
@@ -216,7 +214,7 @@ Time independent currents:
 
 Electrical circuit on the right (sarcolema)  coupled to fluid compartment model (left). It is represented how Ca+2 dynamics are in the SR and cytoplasm.
 
-### 3.4.2 Courtemanche 1998 cell model 
+### 3.5.2 Courtemanche 1998 cell model 
 
 By: Penny Noble of Oxford University
 
@@ -253,7 +251,7 @@ $I_ion = I_Na + I_K1 + I_to + I_Kur + I_Kr + I_Ks + I_Ca,L + I_p,Ca + I_NaK + I_
 
 Representation of the cell membrane with all the ionic channels (yellow) that the model takes into account (12) and intracellular Na<sup>+</sup> and K<sup>+</sup> ( 2 blue channels). Inside it is represented the Sarcoplasmic reticulum ( 3 ionic channels).
 
-### 3.4.3 Maleckar 2009 cell model 
+### 3.5.3 Maleckar 2009 cell model 
 
 By:  Mary M. Maleckara, Joseph L. Greensteina, Natalia A. Trayanova and Wayne R. Giles
 
