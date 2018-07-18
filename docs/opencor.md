@@ -76,7 +76,7 @@ The interpretation and relation of the graphs is out of the scope of this page. 
  
  In the depolarizing phase I<sub>t</sub>, I<sub>sus</sub> and I<sub>CaL</sub> are also activated. I<sub>t</sub>, I<sub>sus</sub> reach their peak faster than  I<sub>CaL</sub> resulting in a bigger magnitude. This leads to rapid repolarization dominated by I<sub>t</sub>. Since time of inactivation is bigger for I<sub>CaL</sub> the net current is gradually dominated by it. 
  
- At the plateau phase of the AP there is a balance between I<sub>sus</sub> (and remaining  I<sub>t</sub>) repolarizing and *I<sub>CaL</sub> depolarizing. 
+ At the plateau phase of the AP there is a balance between I<sub>sus</sub> (and remaining  I<sub>t</sub>) repolarizing and I<sub>CaL</sub> depolarizing. 
  
  When I<sub>CaL</sub> inactivates, I<sub>sus</sub> dominates and togheter with rectifier currents (I<sub>K1</sub>,I<sub>K,r</sub>, I<sub>K,s</sub>)the cell AP goes back to **resting potential**.
 
