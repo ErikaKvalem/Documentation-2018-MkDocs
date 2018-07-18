@@ -7,11 +7,11 @@ The following screenshot refers to the **Beeler Reuter model** run by OpenCOR. T
 
 The first one shows the **voltage dependence on time  V(t)**  also known as **action potential**. It can be distinguished the depolarization, plateau and repolarization phases of the action potentail of a **cardiac cell.** 
 
-The second reffers to the **fast inward current ($I_Na$)**. This one has a very brief downward (inward current) spike that is triggered when the membrane voltage reaches around **-70 mV**. This is caused by the big increase in sodium channel conductance **($g_Na (t) $)**. This is related simultaneously with the **fourth plot**; the opening and closing of the **m** and **h** gates. 
+The second reffers to the **fast inward current (I<sub>Na</sub>)**. This one has a very brief downward (inward current) spike that is triggered when the membrane voltage reaches around **-70 mV**. This is caused by the big increase in sodium channel conductance (g<sub>Na</sub>(t)). This is related simultaneously with the **fourth plot**; the opening and closing of the **m** and **h** gates. 
 
-The third plot shows the time dependent outward current **($I_K1$)** and the time independent outward current  **( $I_x1$ ) **. 
+The third plot shows the time dependent outward current I<sub>K1</sub> and the time independent outward current  I<sub>x1</sub>. 
 
-The fourth plot gathers both the **m gate and the h gate**. The opening of m gate coincides with the spike from the  **fast inward current ($I_Na$)** seen in the second graph. The m gate is open during the plateau and is closed when the h gate opens. 
+The fourth plot gathers both the **m gate and the h gate**. The opening of m gate coincides with the spike from the  **fast inward current (I<sub>Na</sub>)** seen in the second graph. The m gate is open during the plateau and is closed when the h gate opens. 
 
 The last plot refers to the **second slower inactivation gate j**. This is a special characteristic of this model since the Hodgkin and Huxley does not include this variable.  The total ionic current in the Beeler-Reuter model is given by **four currents**, and the model uses **eight variables**.
 
@@ -37,32 +37,31 @@ Paraview visualization:
 
 This model is slightly more complex than the ones previously mentioned. It uses 12 transmembrane currents listed here: 
 
-- Fast **Na+** current 
+- Fast **Na<sup>+</sup>** current 
 
-- L-type **Ca2+** current 
+- L-type **Ca<sup>+2</sup>** current 
 
-- Rapid  delayed rectifier **K+** current
+- Rapid  delayed rectifier **K<sup>+</sup>** current
 
-- Slow delayed rectifier **K+** current
+- Slow delayed rectifier **K<sup>+</sup>** current
 
-- Inward rectifier **K+** current
+- Inward rectifier **K<sup>+</sup>** current
 
-- Transient outward **K+**
+- Transient outward **K<sup>+</sup>**
 
-- Plateau **K+** current 
+- Plateau **K<sup>+</sup>** current 
 
-- **Na+-Ca2+** exchanger current
+- **Na<sup>+</sup>-Ca<sup>+2</sup>** exchanger current
 
-- **Na+-K+** pump current
+- **Na<sup>+</sup>-K<sup>+</sup>** pump current
 
-- Sarcolemmal **Ca2+** pump current
+- Sarcolemmal **Ca<sup>+2</sup>** pump current
 
-- Background **Na+** current
+- Background **Na<sup>+</sup>** current
 
-- Background **Ca2+** current.
+- Background **Ca<sup>+2</sup>** current.
 
-From those currents some have been represented in the screenshot below (The action potential, **K+** current, L-type **Ca2+** current ,
-background **Na+** current and **Na+-K+** pump current).
+From those currents some have been represented in the screenshot below (The action potential, **K<sup>+</sup>** current, L-type  **Ca<sup>+2</sup>** current , background **Na<sup>+</sup>** current and **Na<sup>+</sup>-K<sup>+</sup>** pump current).
 
 The interpretation and relation of the graphs is out of the scope of this page. However it is relevant to get an idea on how complex and complete this models can get, trying to simulate reality as much as they can.
 
@@ -73,13 +72,13 @@ The interpretation and relation of the graphs is out of the scope of this page. 
 
  The following screenshot refers to the **Nygren 1998 cell  model **  run by OpenCOR.
  
- The graphs refer to the **ionic current** waveforms during **AP**. **$I_Na$** is the first to respond to depolarizing stimulus pulse (delivered at time=0.1). **$I_Na$**  activates rapidly and therefore there is a large **transient inward current**. This will generate the upstroke in the initial phase of the AP. 
+ The graphs refer to the **ionic current** waveforms during **AP**. I<sub>Na</sub>  is the first to respond to depolarizing stimulus pulse (delivered at time=0.1).  I<sub>Na</sub>  activates rapidly and therefore there is a large **transient inward current**. This will generate the upstroke in the initial phase of the AP. 
  
- In the depolarizing phase **$I_t$**, **$I_sus$** and **$I_CaL$** are also activated. **$I_t$**, **$I_sus$** reach their peak faster than **$I_CaL$** resulting in a bigger magnitude. This leads to rapid repolarization dominated by **$I_t$**. Since time of inactivation is bigger for **$I_CaL$** the net current is gradually dominated by it. 
+ In the depolarizing phase I<sub>t</sub>, I<sub>sus</sub> and I<sub>CaL</sub> are also activated. I<sub>t</sub>, I<sub>sus</sub> reach their peak faster than  I<sub>CaL</sub> resulting in a bigger magnitude. This leads to rapid repolarization dominated by I<sub>t</sub>. Since time of inactivation is bigger for I<sub>CaL</sub> the net current is gradually dominated by it. 
  
- At the plateau phase of the AP there is a balance between **$I_sus$** (and remaining  **$I_t$**) repolarizing and **$I_CaL$** depolarizing. 
+ At the plateau phase of the AP there is a balance between I<sub>sus</sub> (and remaining  I<sub>t</sub>) repolarizing and *I<sub>CaL</sub> depolarizing. 
  
- When **$I_CaL$** inactivates, **$I_sus$** dominates and togheter with rectifier currents **($I_K1$, $I_K,r$, $I_K,s$)** the cell AP goes back to **resting potential**.
+ When I<sub>CaL</sub> inactivates, I<sub>sus</sub> dominates and togheter with rectifier currents (I<sub>K1</sub>,I<sub>K,r</sub>, I<sub>K,s</sub>)the cell AP goes back to **resting potential**.
 
 
 ![screen shot 2018-07-11 at 11 12 48 am](https://user-images.githubusercontent.com/39902241/42563196-eaf838ae-84fd-11e8-8aef-96dd5ad7ff9f.jpg)
