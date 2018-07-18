@@ -183,36 +183,37 @@ As a result it suggest that the functional role of I<sub>sus</sub> depends on th
 
 This model uses the following membrane currents: 
 
-- **$I_Na$** Na+ current
+-  I<sub>Na</sub> Na+ current
 
-- **$I_CaL$** L-type Ca+2 current
+- I<sub>CaL</sub> L-type Ca+2 current
 
-- **$I_t$** Transient outward current
+- I<sub>t</sub>. Transient outward current
 
-- **$I_sus$** Sustained outward K+ current 
+- I<sub>sus</sub> Sustained outward K+ current 
 
-- **$I_K,r$** Delayed  rapid rectifier K+ current 
+- I<sub>K,r</sub> Delayed  rapid rectifier K+ current 
 
-- **$I_K,s$** Delayed  slow rectifier K+ current 
+- I<sub>K,s</sub> Delayed  slow rectifier K+ current 
 
 Time independent currents: 
 
-- **$I_K1$** Inward rectifying K+ current
+- I<sub>K1</sub> Inward rectifying K+ current
 
-- **$I_CaP$**  Ca+2 pump current 
-- **$I_NaK$**  Na+-K+ pump current
+- I<sub>CaP</sub> Ca+2 pump current
 
-- **$I_NaCa$** Na+-Ca+2 exchanger current 
+- I<sub>NaK</sub>  Na+-K+ pump current
 
-- **$I_B,Na$** Na+ background (leakage) current
+- I<sub>NaCa</sub> Na+-Ca+2 exchanger current 
 
-- **$I_B,Ca$** Ca+2 background (leakage) current
+- I<sub>B,Na</sub> Na+ background (leakage) current
+
+- I<sub>B,Ca</sub>Ca+2 background (leakage) current
 
 ####  Schematic representation
 
 ![nygren_1998](https://user-images.githubusercontent.com/39902241/42502081-6e17d056-8435-11e8-9d1a-06d0af20d1a8.png)
 
-Electrical circuit on the right (sarcolema)  coupled to fluid compartment model (left). It is represented how Ca+2 dynamics are in the SR and cytoplasm.
+Electrical circuit on the right (sarcolema)  coupled to fluid compartment model (left). It is represented how Ca<sup>+2</sup> dynamics are in the SR and cytoplasm.
 
 ### 3.5.2 Courtemanche 1998 cell model 
 
@@ -224,9 +225,9 @@ This is a  **mathematical** model of the **human atrial AP** based on **Luo Rudy
 
 Its main goal is to explain the underlying ionic mechanisms controlling human atrial AP. 
 
-The model explains how strong reductions in **$I_Ca,L$** (due to disease or intentionally blocked by drugs) can lead to the loss of **rate adaptation of the AP** and contribute to the susceptibility to **Atrial fibrilation (AF)**.
+The model explains how strong reductions in I<sub>CaL</sub> (due to disease or intentionally blocked by drugs) can lead to the loss of **rate adaptation of the AP** and contribute to the susceptibility to **Atrial fibrilation (AF)**.
 
-Furthermore, this model shows the importante of **Transient outward K1 current** (**$I_to$**). This current is a key current in the plateaus phase of the AP. Variations in  **$I_to$** cause **AP variability** and therefore can induce to **AF**. 
+Furthermore, this model shows the importante of **Transient outward K1 current** (I<sub>to</sub>). This current is a key current in the plateaus phase of the AP. Variations in  I<sub>to</sub> cause **AP variability** and therefore can induce to **AF**. 
 
 This model has 21 variables:
 
@@ -242,7 +243,7 @@ This model has 21 variables:
 
 Total ionic current:
 
-$I_ion = I_Na + I_K1 + I_to + I_Kur + I_Kr + I_Ks + I_Ca,L + I_p,Ca + I_NaK + I_NaCa + I_b,Na + I_b,Ca$
+I<sub>ion</sub> = I<sub>Na</sub> + I<sub>K1</sub> + I<sub>to</sub> + I<sub>Kur</sub> + I<sub>Kr</sub> + I<sub>Ks</sub> + I<sub>Ca,L</sub>+ I<sub>P,Ca</sub> + I<sub>NaK</sub> + I<sub>NaCA</sub>+ I<sub>b,Na</sub> + I<sub>b,Ca</sub>
 
 
 ####  Schematic representation
