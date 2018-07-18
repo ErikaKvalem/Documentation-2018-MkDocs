@@ -175,11 +175,11 @@ This is a **mathematical model** of an **adult human atrial cell**.
 
 It uses an **electrical circuit** for the sarcolemma coupled to a **fluid compartment model**. This second part of the model accounts for the changesin ionic concentrations in the cytoplasm and sacoplasmic reticulum. 
 
-This models focus mainly in the important role of the **sustained outward K<sup>+</sup> current ($I sup>sus</sup>$)** that is directly related with the **duration of the AP** in human atrial cells. 
+This models focus mainly in the important role of the **sustained outward K<sup>+</sup> current **(I sup>sus</sup>)** that is directly related with the **duration of the AP** in human atrial cells. 
 
-Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current ($I sup>sus</sup>$)**, and **L-type Ca<sup>+2</sup> current ($I sup>CaL</sup>$)**. 
+Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current **(I sup>sus</sup>)**, and **L-type Ca<sup>+2</sup> current **(I sup>CaL</sup>)**. 
 
-As a result it suggest that the functional role of **($I sup>sus</sup>$)** depends on the physiological state of the cell. 
+As a result it suggest that the functional role of **(I sup>sus</sup>)** depends on the physiological state of the cell. 
 
 This model uses the following membrane currents: 
 
