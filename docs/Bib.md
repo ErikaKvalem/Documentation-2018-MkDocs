@@ -22,7 +22,7 @@
 - Paraview.org. (2018). ParaView. [online] Available at: https://www.paraview.org/ [Accessed 12 Jul. 2018].
 
 
-## 3. Documentation on Electrophysiological Atrial Cell models 
+## 3. Documentation on Electrophysiological Atrial Cell models and 5. OpenCOR
 
 -  Clayton, R. and Panfilov, A. (2008). A guide to modelling cardiac electrical activity in anatomically detailed ventricles. Progress in Biophysics and Molecular Biology, 96(1-3), pp.19-43.
 
@@ -45,6 +45,9 @@
 
 - Nygren, A., Fiset, C., Firek, L., Clark, J., Lindblad, D., Clark, R. and Giles, W. (1998). Mathematical Model of an Adult Human Atrial Cell The Role of K+ Currents in Repolarization. [online] vol. 82, pp.no. 1 63-81. Available at: http://circres.ahajournals.org/content/82/1/63/tab-article-info [Accessed 18 Jul. 2018].
 
+- Courtemanche M1, Ramirez RJ, Nattel S. (1998). Ionic mechanisms underlying human atrial action potential properties: Insights from a mathematical model.275(1 Pt 2):, 21. Retrieved from https://www.ncbi.nlm.nih.gov/pubmed/9688927
+
+- Maleckar, M. M., Greenstein, J. L., Trayanova, N. A., & Giles, W. R. (2008). Mathematical simulations of ligand-gated and cell-type specific effects on the action potential of human atrium. Progress in Biophysics and Molecular Biology, 98(2-3), 161–170. http://doi.org/10.1016/j.pbiomolbio.2009.01.010
 
 
 **Table References** 
@@ -54,6 +57,10 @@
 - Paci, M., Hyttinen, J., Aalto-Setälä, K. et al. Ann Biomed Eng (2013) 41: 2334. https://doi.org/10.1007/s10439-013-0833-3
 
 - Sandeep, V. (2014). Ionic Mechanisms of Atrial Action Potentials,. Cardiac Electrophysiology: From Cell to Bedside (Sixth Edition), W.B. Saunders,, [online] (ISBN 9781455728565,), pp.Pages 309-318,. Available at: https://doi.org/10.1016/B978-1-4557-2856-5.00031-5. [Accessed 18 Jul. 2018].
+
+- Bueno-Orovio, A., Cherry, E. M., & Fenton, F. H. (2008). Minimal model for human ventricular action potentials in tissue//doi.org/10.1016/j.jtbi.2008.03.029 Retrieved from http://www.sciencedirect.com/science/article/pii/S0022519308001690
+
+
 
 
 
