@@ -238,9 +238,9 @@ This model has 21 variables:
 
 - 3 gating variables for Ca<sup>+2</sup> release current from SR 
 
-- Intracellular Na+ 
+- Intracellular Na<sup>+</sup> 
 
-- Intracellular K+
+- Intracellular K<sup>+</sup>
 
 Total ionic current:
 
@@ -251,7 +251,7 @@ $I_ion = I_Na + I_K1 + I_to + I_Kur + I_Kr + I_Ks + I_Ca,L + I_p,Ca + I_NaK + I_
 
 ![courtmanchess](https://user-images.githubusercontent.com/39902241/42322043-3a89ae40-805b-11e8-9c14-a4b082b1c2b3.png)
 
-Representation of the cell membrane with all the ionic channels (yellow) that the model takes into account (12) and intracellular Na+ and K+ ( 2 blue channels). Inside it is represented the Sarcoplasmic reticulum ( 3 ionic channels).
+Representation of the cell membrane with all the ionic channels (yellow) that the model takes into account (12) and intracellular Na<sup>+</sup> and K<sup>+</sup> ( 2 blue channels). Inside it is represented the Sarcoplasmic reticulum ( 3 ionic channels).
 
 ### 3.4.3 Maleckar 2009 cell model 
 
