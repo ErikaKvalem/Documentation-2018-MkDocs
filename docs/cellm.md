@@ -177,9 +177,9 @@ It uses an **electrical circuit** for the sarcolemma coupled to a **fluid compar
 
 This models focus mainly in the important role of the **sustained outward K<sup>+</sup> current **(I)** that is directly related with the **duration of the AP** in human atrial cells. 
 
-Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current (Isub>sus</sub>), and **L-type Ca<sup>+2</sup> current **(Isub>CaL</sub>)**. 
+Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current I<sub>sus</sub>, and **L-type Ca<sup>+2</sup> current I<sub>CaL</sub>. 
 
-As a result it suggest that the functional role of **(Isub>sus</sub>)** depends on the physiological state of the cell. 
+As a result it suggest that the functional role of I<sub>sus</sub> depends on the physiological state of the cell. 
 
 This model uses the following membrane currents: 
 
