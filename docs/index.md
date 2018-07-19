@@ -290,7 +290,7 @@ This is the link to the [OpenCOR tutorial](https://media.readthedocs.org/pdf/tut
 
 ## 2.6. ParaView
 
-[**ParaView**](https://www.paraview.org/overview/)**[ix]**is an **open-source**, multi-platform data analysis and **visualization application**.  ParaView was developed to analyze extremely large datas sets using distributed memory computing resources. 
+[**ParaView**](https://www.paraview.org/overview/) **[ix] ** is an **open-source**, multi-platform data analysis and **visualization application**.  ParaView was developed to analyze extremely large datas sets using distributed memory computing resources. 
 
 In this case it will be used to **visualize the solutions** from cbcbeat of the simulations of the cell models since **Docker** does not allow visualization. 
 
