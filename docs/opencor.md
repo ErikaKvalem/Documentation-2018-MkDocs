@@ -86,6 +86,9 @@ The interpretation and relation of the graphs is out of the scope of this page. 
 
 ## 5.5 Courtemanche 1998 cell model
 
+![output_7g9fk5](https://user-images.githubusercontent.com/39902241/42940010-323c7472-8b58-11e8-9b7e-db3a19bf923c.gif)
+
+
 ## 5.6 Maleckar 2009 cell model
 
 
