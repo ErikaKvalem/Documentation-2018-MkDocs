@@ -1,7 +1,7 @@
 # Bibliography
 ## 1. Introduction
 
-- 1.Zoni-Berisso, M., Lercari, F., Carazza, T. and Domenicucci, S. (2018). Epidemiology of atrial fibrillation: European perspective.
+- 1. Zoni-Berisso, M., Lercari, F., Carazza, T. and Domenicucci, S. (2018). Epidemiology of atrial fibrillation: European perspective.
 
 - 2. Simula.no. (2018). SysAFib: Systems medicine for diagnosis and stratification of atrial fibrillation | Simula. [online Available at:] (https://www.simula.no/research/projects/sysafib-systems-medicine-diagnosis-and-stratification-atrial-fibrillation [Accessed 12 Jul. 2018]).
 
