@@ -11,7 +11,7 @@ Applications: Education (i.e cardiology), diagnostic and therapeutic instrumenta
 
 These electrophysiologycal models have been developed throughout history since **1952**. The first model was simulated by **Hodgkin-Huxley** on the axon membrane of a giant squid. **[10]**
 
-Other important names have been for example **Noble**, **Beeler-Reuter**, **Luo-Rudy** etc. **[xii]**
+Other important names have been for example **Noble**, **Beeler-Reuter**, **Luo-Rudy** etc. **[12]**
 
 
 
@@ -76,7 +76,7 @@ The development of models historically has focused more on the **left ventricle*
 For this reason, this section was created since having a background on ventricular models  is helpful to understand atrial cell models. 
 
 The ventricular models that will be mentioned are **The Beeler Reuter model**, **The FitzHugh-Nagumo model** and  **ten Tusscher, Panfilov 2006 model**. 
-Other related  models:  **The Luo Rudy dynamic model** and **The Aliev-Panfilov model**. **[xii]**
+Other related  models:  **The Luo Rudy dynamic model** and **The Aliev-Panfilov model**. **[12]**
 
 ### 3.3.2 The Beeler Reuter model
 By: Penny Noble of Oxford University
