@@ -102,7 +102,7 @@ The final phase is slow late repolarization caused by a balance between deactiva
 
 ![output_7g9fk5](https://user-images.githubusercontent.com/39902241/42940010-323c7472-8b58-11e8-9b7e-db3a19bf923c.gif)
 
-![screen shot 2018-07-20 at 11 56 20 am](https://user-images.githubusercontent.com/39902241/42997175-0ace3c0e-8c16-11e8-9854-89b3cb413892.png)
+
 
 
 ## 5.6 Maleckar 2009 cell model
