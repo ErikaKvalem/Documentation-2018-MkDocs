@@ -13,10 +13,12 @@ MacBook Air 2014
 
 ## 2.2.	Docker
 
-Installing Docker is the first step of this process.  To download it and install it, use the following [link](https://www.docker.com/community-edition#/download)**[5]** should be used: 
+Installing Docker is the first step of this process.  To download it and install it, use the following [link](https://www.docker.com/community-edition#/download)**[5]** 
 
 
-The whole concept of Docker is new and very abstract. Docker is a container platform using images and containers. What it will be done in this tutorial is download the image of the fenics project and start a container with it. This container it is going to be shared between the machine and the cloud. 
+The whole concept of Docker is new and very abstract. Docker is a container platform using images and containers. 
+
+What will be done in this tutorial is download the image of the fenics project and start a container with it. This container it is going to be shared between the machine and the cloud. 
 
 Moreover, a Docker ID should be created so afterwards Docker Hub can be used only to download or upload repositories. 
 
