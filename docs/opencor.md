@@ -33,6 +33,8 @@ Paraview visualization:
 
 <a href="https://imgflip.com/gif/2dnqo8"><img src="https://i.imgflip.com/2dnqo8.gif" title="made at imgflip.com"/></a>
 
+This image shows how the AP changes along with the time. The initial value matches with the red colour and changes to white and blue during the action potential development representing the drop and different ups and downs of the morphology of the AP curve.
+
 ## 5.3 The ten Tusscher, Panfilov, 2006 model 
 
 This model is slightly more complex than the ones previously mentioned. It uses 12 transmembrane currents listed here: 
