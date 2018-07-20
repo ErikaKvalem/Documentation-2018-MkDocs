@@ -13,7 +13,7 @@ MacBook Air 2014
 
 ## 2.2.	Docker
 
-Installing Docker is the first step of this process.  To download it and install it, use the following [link](https://www.docker.com/community-edition#/download)**[v]** should be used: 
+Installing Docker is the first step of this process.  To download it and install it, use the following [link](https://www.docker.com/community-edition#/download)**[5]** should be used: 
 
 
 The whole concept of Docker is new and very abstract. Docker is a container platform using images and containers. What it will be done in this tutorial is download the image of the fenics project and start a container with it. This container it is going to be shared between the machine and the cloud. 
@@ -58,7 +58,7 @@ For more documentation on getting started with Docker use this [link](https://do
 
 It is important to notice that Fenics is Python based so it is necessary to have Python installed in the machine before installing Fenics. It is important to download *Python 2* since it is the one working with cbcbeat. [Link](https://www.python.org/downloads/) to download it. 
 
-For the installation of Fenics the following [link](https://fenicsproject.org/download/) should be used. **[vi]** 
+For the installation of Fenics the following [link](https://fenicsproject.org/download/) should be used. **[6]** 
 
 First of all it is important to place ourselves in the terminal and know exactly where we are at every moment so we can find easily the solutions and documents that fenics will create. 
 In this case we will create a folder that will be called **my-project** where all the output from fenics will be stored. Inside that folder I created a folder called **Demo** and placed myself in there. The command *cd* is used in the terminal to change directory. 
@@ -161,7 +161,7 @@ fenics@0ca36cf2dd4f:~/demo/documented/nonlinear-poisson/python$
 
 ## 2.4. Cbcbeat
 
-**Cbcbeat** is manly used in *computational cardiac electrophysiology*. This is the [main page](http://cbcbeat.readthedocs.io/en/latest/)**[vii]**
+**Cbcbeat** is manly used in *computational cardiac electrophysiology*. This is the [main page](http://cbcbeat.readthedocs.io/en/latest/)**[7]**
 for the documentation. 
 The installation of cbcbeat is however more tedious. The following [link](https://bitbucket.org/meg/cbcbeat/src/default/) is the main one for the installation.
 
@@ -284,13 +284,13 @@ To see the full process done in the terminal during the installation of cbcbeat 
 **OpenCOR** is an **open source** tool for creating and visualizing **standards-based models** and running model simulations. It is the latest in a series of software projects whihch goal is to provide a **modelling environment** for **CellML models**.
 
 This tool has been created inside the [Physiome Project](http://physiomeproject.org/). 
-This is the [main page](http://www.opencor.ws)**[viii]** from where OpenCOR can be downloaded. 
+This is the [main page](http://www.opencor.ws)**[8]** from where OpenCOR can be downloaded. 
 This is the link to the [OpenCOR tutorial](https://media.readthedocs.org/pdf/tutorial-on-cellml-opencor-and-pmr/latest/tutorial-on-cellml-opencor-and-pmr.pdf) Release 0.17.0 by Peter Hunter on Mar 2018. 
 
 
 ## 2.6. ParaView
 
-[**ParaView**](https://www.paraview.org/overview/) is an **open-source**, multi-platform data analysis and **visualization application**.  ParaView was developed to analyze extremely large datas sets using distributed memory computing resources.**[ix]**  
+[**ParaView**](https://www.paraview.org/overview/) is an **open-source**, multi-platform data analysis and **visualization application**.  ParaView was developed to analyze extremely large datas sets using distributed memory computing resources.**[9]**  
 
 In this case it will be used to **visualize the solutions** from cbcbeat of the simulations of the cell models since **Docker** does not allow visualization. 
 
