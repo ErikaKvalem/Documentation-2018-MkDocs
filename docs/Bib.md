@@ -1,5 +1,5 @@
 # Bibliography
-## 1. Introduction
+
 
 1. Zoni-Berisso, M., Lercari, F., Carazza, T. and Domenicucci, S. (2018). Epidemiology of atrial fibrillation: European perspective.
 
@@ -8,8 +8,6 @@
 3. https://www.simula.no/
 
 4. Vph-conference.org. (2018). VPH2018 - Virtual Physiological Human conference in Zaragoza. [online] Available at: http://vph-conference.org/ [Accessed 12 Jul. 2018].
-
-## 2. Installation
 
 5. Docker. (2018). What is Docker?. [online] Available at: https://www.docker.com/what-docker [Accessed 12 Jul. 2018]. 
 
@@ -20,9 +18,6 @@
 8. Opencor.ws. (2018). OpenCOR. [online] Available at: http://www.opencor.ws/ [Accessed 12 Jul. 2018].
 
 9. Paraview.org. (2018). ParaView. [online] Available at: https://www.paraview.org/ [Accessed 12 Jul. 2018].
-
-
-## 3. Documentation on Electrophysiological Atrial Cell models and 5. OpenCOR
 
 10. Clayton, R. and Panfilov, A. (2008). A guide to modelling cardiac electrical activity in anatomically detailed ventricles. Progress in Biophysics and Molecular Biology, 96(1-3), pp.19-43.
 
@@ -49,8 +44,6 @@
 
 21. Maleckar, M. M., Greenstein, J. L., Trayanova, N. A., & Giles, W. R. (2008). Mathematical simulations of ligand-gated and cell-type specific effects on the action potential of human atrium. Progress in Biophysics and Molecular Biology, 98(2-3), 161–170. http://doi.org/10.1016/j.pbiomolbio.2009.01.010
 
-
-**Table References** 
 
 22. Ptglab.com. (2018). Atrial and ventricular myocytes. [online] Available at: https://www.ptglab.com/news/blog/atrial-and-ventricular-myocytes/ [Accessed 18 Jul. 2018].
 
