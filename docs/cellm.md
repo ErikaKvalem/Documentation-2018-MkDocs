@@ -106,7 +106,7 @@ By: Penny Noble of Oxford University
 
 #### Model description
 
-This is an **Empirical model** which aims for a **larger spatial and temporal scale** and provides an action potential at a **minimal computational cost**.
+This is an **Empirical model** which aims for a **larger spatial and temporal scale** and provides an action potential at a **minimal computational cost**. **[17]**
 
 Is based on the cubic excitation model but it also includes a **recovery variable** so both *depolarisation and repolarisation* can be modelled. 
 
@@ -137,7 +137,7 @@ This model focus on  **Action potential durantion (APD)** restitution and **intr
 
 This model is used to study **ventricular fibrilation** since dynamical inestabilities in APD are directly related to it. The key concept for inestability is the **recovery dynamics of fast Na+ current**.  Slower Na+ current recovery means **longer periods** of spiral wave rotation and more gradual **conduction velocity restitution**. And these two things lead to **inestability**.
 
-There are two different **versions** of this model. The *A* version is a full description of the Ca<sup>+2</sup> dynamics **(17 variables)** and the *B* option is a simplified version with **9 variables** ( voltage and 8 gates). 
+There are two different **versions** of this model. The *A* version is a full description of the Ca<sup>+2</sup> dynamics **(17 variables)** and the *B* option is a simplified version with **9 variables** ( voltage and 8 gates).  **[18]**
 
 #### Schematic representation
 
@@ -148,6 +148,8 @@ There are two different **versions** of this model. The *A* version is a full de
 ## 3.4 Comparison Ventricular vs Atrial models 
 
 ![screen shot 2018-07-05 at 12 39 21 pm](https://user-images.githubusercontent.com/39902241/42318875-9d12c778-8050-11e8-908e-b9950f5f05b2.png)
+
+
 Caption: 
 
 - Action potential **(AP)** 
@@ -164,6 +166,8 @@ Caption:
 
 - Rapid inactivation outward current **(I(to))**. 
 
+References for the table: **[22],[23],[24],[25]**
+
 ## 3.5 Atrial cell models
 
 ### 3.5.1 Nygren 1998 cell model
@@ -177,7 +181,7 @@ It uses an **electrical circuit** for the sarcolemma coupled to a **fluid compar
 
 This models focus mainly in the important role of the **sustained outward K<sup>+</sup> current **(I)** that is directly related with the **duration of the AP** in human atrial cells. 
 
-Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current I<sub>sus</sub>, and **L-type Ca<sup>+2</sup> current I<sub>CaL</sub>. 
+Moreover it shows that the AP shape at the **peak** and **plateau** phases are mainly conditioned by **transient outward K<sup>+</sup> current I<sub>sus</sub>, and **L-type Ca<sup>+2</sup> current I<sub>CaL</sub>. **[19]**
 
 As a result it suggest that the functional role of I<sub>sus</sub> depends on the physiological state of the cell. 
 
@@ -227,7 +231,7 @@ Its main goal is to explain the underlying ionic mechanisms controlling human at
 
 The model explains how strong reductions in I<sub>CaL</sub> (due to disease or intentionally blocked by drugs) can lead to the loss of **rate adaptation of the AP** and contribute to the susceptibility to **Atrial fibrilation (AF)**.
 
-Furthermore, this model shows the importante of **Transient outward K1 current** (I<sub>to</sub>). This current is a key current in the plateaus phase of the AP. Variations in  I<sub>to</sub> cause **AP variability** and therefore can induce to **AF**. 
+Furthermore, this model shows the importante of **Transient outward K1 current** (I<sub>to</sub>). This current is a key current in the plateaus phase of the AP. Variations in  I<sub>to</sub> cause **AP variability** and therefore can induce to **AF**. **[20]**
 
 This model has 21 variables:
 
@@ -266,7 +270,7 @@ The model was developed after a exhaustive analysis of the heterogeneous cell to
 
 - **Non selective cation current**
 
-This model shows how **non linear interactions** between **ionics currents** in the human atrial myocyte have direct effects on **actylcholine** and cause alterations in the  **AP waveform**.
+This model shows how **non linear interactions** between **ionics currents** in the human atrial myocyte have direct effects on **actylcholine** and cause alterations in the  **AP waveform**. **[21]**
 
 ####  Schematic representation
 
